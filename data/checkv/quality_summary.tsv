@@ -1,0 +1,815 @@
+contig_id	contig_length	provirus	proviral_length	gene_count	viral_genes	host_genes	checkv_quality	miuvig_quality	completeness	completeness_method	contamination	kmer_freq	warnings
+TC7_NODE_663_length_6865_cov_1.287326	6865	No	NA	11	3	0	Low-quality	Genome-fragment	17.01	AAI-based (medium-confidence)	0.0	1.0	
+TC25_k99_8994_fragment_1	41412	Yes	38568	58	21	2	Medium-quality	Genome-fragment	75.06	AAI-based (medium-confidence)	6.87	1.0	
+TC7_NODE_2_length_1407101_cov_253.573458_fragment_10	10378	Yes	6092	8	1	1	Low-quality	Genome-fragment	13.1	AAI-based (medium-confidence)	41.3	1.0	
+TC7_NODE_2_length_1407101_cov_253.573458_fragment_6	11468	No	NA	12	1	2	Low-quality	Genome-fragment	7.41	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_2_length_1407101_cov_253.573458_fragment_16	62074	Yes	49960	83	12	9	Medium-quality	Genome-fragment	67.99	HMM-based (lower-bound)	19.52	1.0	
+TC48_NODE_4_length_1260246_cov_92.341503_fragment_13	48698	No	NA	85	24	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+TC25_k99_2767_fragment_1	13539	No	NA	17	2	2	Low-quality	Genome-fragment	15.12	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_44_length_237384_cov_5.080967_fragment_4	33015	No	NA	47	22	0	High-quality	High-quality	91.65	AAI-based (medium-confidence)	0.0	1.0	
+TC21_NODE_44_length_237384_cov_5.080967_fragment_2	42801	No	NA	48	11	3	High-quality	High-quality	90.97	AAI-based (medium-confidence)	0.0	1.01	
+TC42_NODE_666_length_14858_cov_1.589437	14858	No	NA	21	3	0	Low-quality	Genome-fragment	34.2	HMM-based (lower-bound)	0.0	1.0	
+TC3_NODE_4_length_355048_cov_7.697313_fragment_1	26634	Yes	18469	33	6	3	High-quality	High-quality	100.0	AAI-based (medium-confidence)	30.66	1.48	contig >1.5x longer than expected genome length
+TC3_NODE_4_length_355048_cov_7.697313_fragment_2	22070	No	NA	15	1	1	Low-quality	Genome-fragment	10.18	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_480_length_7001_cov_6.847105	7001	No	NA	8	1	0	Low-quality	Genome-fragment	6.56	HMM-based (lower-bound)	0.0	1.0	low-confidence ITR
+TC18_NODE_16_length_258475_cov_12.977008_fragment_1	28753	No	NA	49	8	0	Low-quality	Genome-fragment	42.75	HMM-based (lower-bound)	0.0	1.0	
+TC42_NODE_104_length_128199_cov_1.574583_fragment_3	8018	No	NA	9	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC44_NODE_149_length_94989_cov_2.906380_fragment_1	37178	Yes	24050	39	8	7	Medium-quality	Genome-fragment	57.58	AAI-based (medium-confidence)	35.31	1.0	low-confidence Provirus
+TC42_NODE_11_length_1360783_cov_3.952205_fragment_16	25289	Yes	9720	27	4	6	Low-quality	Genome-fragment	21.62	HMM-based (lower-bound)	61.56	1.0	
+TC42_NODE_11_length_1360783_cov_3.952205_fragment_14	19484	No	NA	12	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC20_NODE_15_length_700655_cov_223.695464_fragment_10	42304	No	NA	60	17	1	Medium-quality	Genome-fragment	88.35	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_249_length_59089_cov_1.993742_fragment_1	36362	No	NA	47	21	0	Low-quality	Genome-fragment	48.4	HMM-based (lower-bound)	0.0	1.0	
+TC42_NODE_907_length_9920_cov_65.905238	9920	No	NA	6	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC21_NODE_13_length_470221_cov_3.044736_fragment_2	42160	Yes	40650	56	23	3	High-quality	High-quality	100.0	AAI-based (medium-confidence)	3.58	1.0	
+TC24_NODE_690_length_9010_cov_1.186874	9010	No	NA	9	5	0	Low-quality	Genome-fragment	5.88	HMM-based (lower-bound)	0.0	1.0	
+TC33_NODE_43_length_222934_cov_294.200192_fragment_2	22266	Yes	16099	27	10	5	Low-quality	Genome-fragment	37.71	AAI-based (medium-confidence)	27.7	1.0	
+TC7_NODE_708_length_5967_cov_1.229110	5967	No	NA	11	4	0	Low-quality	Genome-fragment	12.4	AAI-based (medium-confidence)	0.0	1.0	
+TC14_NODE_65_length_140383_cov_1.895035_fragment_3	37734	No	NA	53	23	0	High-quality	High-quality	92.84	AAI-based (medium-confidence)	0.0	1.0	
+TC1_NODE_1321_length_5438_cov_0.989456	5438	No	NA	5	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC9_NODE_357_length_40039_cov_1.810233_fragment_1	15300	No	NA	19	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC9_NODE_357_length_40039_cov_1.810233_fragment_2	8341	No	NA	10	7	0	Low-quality	Genome-fragment	24.14	AAI-based (medium-confidence)	0.0	1.0	
+TC36_NODE_1770_length_5093_cov_1.325413	5093	No	NA	6	1	0	Low-quality	Genome-fragment	8.91	AAI-based (medium-confidence)	0.0	1.0	
+TC25_k99_5651	20191	No	NA	25	7	1	Low-quality	Genome-fragment	43.52	AAI-based (medium-confidence)	0.0	1.0	low-confidence ITR
+TC43_NODE_261_length_20169_cov_105.725726	20169	No	NA	17	2	1	Low-quality	Genome-fragment	7.52	HMM-based (lower-bound)	0.0	1.01	
+TC22_k99_7191_fragment_3	29119	No	NA	38	14	0	Medium-quality	Genome-fragment	66.75	AAI-based (medium-confidence)	0.0	1.0	
+TC9_NODE_301_length_51877_cov_2.200715	51877	No	NA	78	14	0	Medium-quality	Genome-fragment	69.5	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_123_length_183909_cov_62.720560_fragment_2	38432	No	NA	51	24	1	High-quality	High-quality	99.98	AAI-based (medium-confidence)	0.0	1.0	
+TC7_NODE_45_length_279079_cov_14.006127_fragment_2	52178	No	NA	52	17	2	High-quality	High-quality	98.39	AAI-based (medium-confidence)	0.0	1.0	
+TC11_NODE_173_length_107209_cov_264.421014_fragment_3	23091	Yes	15004	28	9	8	Low-quality	Genome-fragment	30.98	AAI-based (medium-confidence)	35.02	1.0	
+TC19_k99_37223	59103	Yes	36113	47	6	6	Low-quality	Genome-fragment	46.31	HMM-based (lower-bound)	38.9	1.0	
+TC21_NODE_1274_length_6408_cov_0.953988	6408	No	NA	10	8	0	Low-quality	Genome-fragment	10.65	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_881_length_14965_cov_1.812778	14965	No	NA	14	5	0	Low-quality	Genome-fragment	18.46	HMM-based (lower-bound)	0.0	1.0	
+TC12_NODE_48_length_211540_cov_35.066874_fragment_1	13964	Yes	8027	16	10	2	Low-quality	Genome-fragment	16.97	AAI-based (medium-confidence)	42.52	1.0	
+TC12_NODE_48_length_211540_cov_35.066874_fragment_2	6484	No	NA	8	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+TC16_NODE_143_length_30331_cov_71.106112	30331	No	NA	50	13	0	Medium-quality	Genome-fragment	66.48	AAI-based (high-confidence)	0.0	1.0	
+TC21_NODE_200_length_53911_cov_2.816209	53911	Yes	46602	71	19	4	Medium-quality	Genome-fragment	86.58	AAI-based (medium-confidence)	13.56	1.0	
+TC32_NODE_72_length_333875_cov_43.079950_fragment_2	38298	Yes	17654	37	5	9	Low-quality	Genome-fragment	13.64	AAI-based (medium-confidence)	53.9	1.0	
+TC41_NODE_545_length_11647_cov_19.706944	11647	No	NA	21	3	1	Low-quality	Genome-fragment	18.23	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_38087_fragment_10	17093	No	NA	19	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC19_k99_38087_fragment_9	51656	No	NA	92	14	2	Medium-quality	Genome-fragment	78.43	HMM-based (lower-bound)	0.0	1.0	
+TC23_NODE_136_length_91462_cov_3.281042_fragment_3	27352	Yes	22592	31	10	2	Low-quality	Genome-fragment	36.52	HMM-based (lower-bound)	17.4	1.0	
+TC14_NODE_188_length_55975_cov_1.464636_fragment_1	17537	No	NA	23	5	0	Low-quality	Genome-fragment	40.71	AAI-based (medium-confidence)	0.0	1.0	
+TC22_k99_9685	6725	No	NA	7	1	0	Low-quality	Genome-fragment	10.06	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_107_length_35249_cov_5.870366_fragment_2	16971	No	NA	26	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC44_NODE_32_length_460431_cov_28.341613_fragment_8	45862	Yes	26128	57	18	11	Low-quality	Genome-fragment	35.91	HMM-based (lower-bound)	43.03	1.0	
+TC9_NODE_2794_length_5245_cov_4.210825	5245	No	NA	5	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC46_NODE_8_length_546078_cov_19.002079_fragment_3	12533	No	NA	19	4	1	Low-quality	Genome-fragment	28.4	AAI-based (medium-confidence)	0.0	1.0	
+TC39_NODE_245_length_50334_cov_108.036987_fragment_1	25533	Yes	19946	47	5	3	Medium-quality	Genome-fragment	51.47	AAI-based (medium-confidence)	21.88	1.0	
+TC9_NODE_2886_length_5069_cov_56.532578	5069	Yes	1034	7	1	2	Low-quality	Genome-fragment	0.27	HMM-based (lower-bound)	79.6	1.0	
+TC9_NODE_132_length_115497_cov_69.713790_fragment_1	50804	No	NA	81	34	1	High-quality	High-quality	95.72	AAI-based (medium-confidence)	0.0	1.0	
+TC47_NODE_256_length_7105_cov_1.087991	7105	No	NA	9	5	0	Low-quality	Genome-fragment	13.38	AAI-based (medium-confidence)	0.0	1.0	
+TC2_NODE_28_length_574127_cov_141.062979_fragment_4	17761	Yes	14270	22	9	3	Low-quality	Genome-fragment	22.89	AAI-based (medium-confidence)	19.66	1.0	
+TC30_NODE_166_length_38633_cov_1.834208_fragment_1	20636	No	NA	35	6	1	Low-quality	Genome-fragment	29.16	HMM-based (lower-bound)	0.0	1.0	
+TC27_NODE_5_length_948412_cov_34.736842_fragment_11	13125	No	NA	8	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC32_NODE_62_length_383417_cov_7.033069_fragment_8	35667	Yes	13092	48	3	10	Low-quality	Genome-fragment	19.28	HMM-based (lower-bound)	63.29	1.0	
+TC32_NODE_62_length_383417_cov_7.033069_fragment_2	35211	No	NA	37	7	4	Low-quality	Genome-fragment	30.79	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_67_length_335913_cov_14.129618_fragment_8	28614	No	NA	31	5	1	Medium-quality	Genome-fragment	68.57	AAI-based (medium-confidence)	0.0	1.0	
+TC25_k99_949	6500	No	NA	8	5	0	Low-quality	Genome-fragment	7.81	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_982_length_12261_cov_1.458958	12261	No	NA	15	5	1	Low-quality	Genome-fragment	24.79	AAI-based (high-confidence)	0.0	1.0	
+TC14_NODE_794_length_12156_cov_1.263613	12156	No	NA	21	4	1	Low-quality	Genome-fragment	17.97	HMM-based (lower-bound)	0.0	1.0	
+TC4_NODE_35_length_71548_cov_19.897915_fragment_1	47915	No	NA	53	17	4	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+TC11_NODE_6_length_890872_cov_11.620703_fragment_2	9781	No	NA	10	4	0	Low-quality	Genome-fragment	24.67	AAI-based (medium-confidence)	0.0	1.0	
+TC11_NODE_6_length_890872_cov_11.620703_fragment_3	42126	No	NA	56	28	1	High-quality	High-quality	94.06	AAI-based (medium-confidence)	0.0	1.0	
+TC21_NODE_352_length_25851_cov_4.020487	25851	No	NA	30	10	0	Low-quality	Genome-fragment	38.74	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_57_length_172417_cov_20.278443_fragment_2	95487	No	NA	128	26	2	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.97	high kmer_freq may indicate large duplication; contig >1.5x longer than expected genome length; low-confidence DTR
+TC6_NODE_57_length_172417_cov_20.278443_fragment_1	9917	No	NA	7	0	1	Low-quality	Genome-fragment	6.45	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+TC46_NODE_25_length_217657_cov_11.547033_fragment_1	48068	No	NA	68	18	3	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+TC12_NODE_57_length_191730_cov_277.144977_fragment_1	10229	No	NA	16	5	0	Low-quality	Genome-fragment	10.9	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_25_length_324279_cov_99.614125_fragment_3	44048	No	NA	50	26	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+TC21_NODE_30_length_280467_cov_3.679974_fragment_3	83257	No	NA	88	25	4	High-quality	High-quality	91.66	HMM-based (lower-bound)	0.0	1.0	
+TC23_NODE_85_length_158508_cov_121.493317_fragment_2	85818	Yes	66063	116	11	11	Medium-quality	Genome-fragment	78.4	HMM-based (lower-bound)	23.02	1.0	
+TC10_NODE_57_length_114557_cov_165.914100_fragment_3	5173	No	NA	8	1	0	Low-quality	Genome-fragment	3.34	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_1169_length_6803_cov_3.292540	6803	No	NA	10	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC43_NODE_250_length_24450_cov_17.771040	24450	No	NA	24	1	6	Low-quality	Genome-fragment	36.58	HMM-based (lower-bound)	0.0	1.03	
+TC33_NODE_6_length_1192258_cov_18.151574_fragment_1	17001	No	NA	23	11	0	Low-quality	Genome-fragment	22.56	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_732_length_11396_cov_34.803443	11396	No	NA	20	3	0	Low-quality	Genome-fragment	18.91	HMM-based (lower-bound)	0.0	1.01	low-confidence DTR
+TC19_k99_8536_fragment_2	10908	No	NA	9	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC28_NODE_27_length_255358_cov_193.026031_fragment_1	124551	No	NA	197	25	1	Medium-quality	Genome-fragment	85.24	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_1359_length_7288_cov_1.000000	7288	No	NA	7	5	0	Low-quality	Genome-fragment	9.53	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_1220_length_6608_cov_1.950779	6608	No	NA	9	1	0	Low-quality	Genome-fragment	3.69	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_11530	5126	No	NA	9	3	0	Low-quality	Genome-fragment	6.73	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_58_length_231948_cov_2.108183_fragment_1	17025	No	NA	17	4	0	Low-quality	Genome-fragment	26.02	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_58_length_231948_cov_2.108183_fragment_2	10349	No	NA	8	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC24_NODE_758_length_8222_cov_1.180976	8222	No	NA	8	3	0	Low-quality	Genome-fragment	12.77	HMM-based (lower-bound)	0.0	1.0	
+TC48_NODE_120_length_57275_cov_4.218538	57275	No	NA	85	27	0	Complete	High-quality	100.0	DTR (medium-confidence)	0.0	1.0	
+TC25_k99_4506	62919	Yes	60167	106	19	3	Medium-quality	Genome-fragment	78.3	HMM-based (lower-bound)	4.37	1.0	
+TC11_NODE_492_length_33086_cov_1.546467_fragment_1	26232	No	NA	33	13	0	Low-quality	Genome-fragment	40.19	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_117_length_213129_cov_2.900386_fragment_3	20615	No	NA	23	18	0	Low-quality	Genome-fragment	32.03	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_252_length_87617_cov_18.550006_fragment_1	41439	Yes	38595	58	21	2	Medium-quality	Genome-fragment	53.25	HMM-based (lower-bound)	6.86	1.0	
+TC21_NODE_16_length_410530_cov_36.647248_fragment_1	33982	No	NA	30	12	0	Medium-quality	Genome-fragment	68.87	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_16_length_410530_cov_36.647248_fragment_2	15451	No	NA	27	12	0	Low-quality	Genome-fragment	22.87	HMM-based (lower-bound)	0.0	1.0	
+TC46_NODE_4_length_2196845_cov_30.805628_fragment_18	40916	Yes	38277	55	21	2	Medium-quality	Genome-fragment	83.01	HMM-based (lower-bound)	6.45	1.0	
+TC46_NODE_4_length_2196845_cov_30.805628_fragment_23	26934	Yes	21291	33	10	5	Low-quality	Genome-fragment	26.86	HMM-based (lower-bound)	20.95	1.0	
+TC46_NODE_4_length_2196845_cov_30.805628_fragment_30	10868	No	NA	11	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC15_NODE_618_length_21382_cov_5.734133	21382	No	NA	20	3	1	Low-quality	Genome-fragment	36.82	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_2_length_1821428_cov_5.251378_fragment_4	10697	No	NA	14	2	0	Medium-quality	Genome-fragment	69.11	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_2_length_1821428_cov_5.251378_fragment_9	15558	No	NA	20	3	2	Low-quality	Genome-fragment	17.59	HMM-based (lower-bound)	0.0	1.01	
+TC43_NODE_2_length_1821428_cov_5.251378_fragment_12	10325	No	NA	10	1	0	Low-quality	Genome-fragment	8.69	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_173_length_23176_cov_18.279622	23176	No	NA	33	15	0	Low-quality	Genome-fragment	31.72	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_46_length_282059_cov_4.965747_fragment_2	8058	No	NA	11	1	0	High-quality	High-quality	90.12	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_46_length_282059_cov_4.965747_fragment_1	9820	No	NA	15	2	0	Low-quality	Genome-fragment	15.63	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_3646	5020	No	NA	7	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC5_NODE_11_length_598228_cov_12.707847_fragment_4	33480	Yes	24253	43	10	5	Medium-quality	Genome-fragment	55.19	HMM-based (lower-bound)	27.56	1.0	low-confidence Provirus
+TC5_NODE_11_length_598228_cov_12.707847_fragment_8	33287	No	NA	33	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC5_NODE_11_length_598228_cov_12.707847_fragment_1	37995	Yes	23850	46	5	4	Low-quality	Genome-fragment	35.19	HMM-based (lower-bound)	37.23	1.0	
+TC24_NODE_1064_length_5943_cov_1.210454	5943	No	NA	13	2	0	Low-quality	Genome-fragment	4.83	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_70_length_327828_cov_64.579061_fragment_5	17665	No	NA	15	6	0	Low-quality	Genome-fragment	34.78	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_7_length_1694277_cov_17.567553_fragment_30	15305	No	NA	13	0	7	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC44_NODE_7_length_1694277_cov_17.567553_fragment_23	49104	No	NA	64	9	0	Medium-quality	Genome-fragment	65.19	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_4_length_2252506_cov_13.870450_fragment_22	18412	No	NA	21	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC44_NODE_4_length_2252506_cov_13.870450_fragment_12	51931	No	NA	90	26	1	Medium-quality	Genome-fragment	80.88	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_4_length_2252506_cov_13.870450_fragment_11	27063	No	NA	40	1	4	Low-quality	Genome-fragment	45.55	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_4_length_2252506_cov_13.870450_fragment_23	8263	No	NA	13	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC16_NODE_159_length_27160_cov_17.922946	27160	No	NA	39	18	0	Low-quality	Genome-fragment	37.19	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_168_length_23899_cov_13.420032	23899	No	NA	21	10	1	Low-quality	Genome-fragment	32.58	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_10_length_663821_cov_141.374759_fragment_4	19742	Yes	11829	23	7	7	Low-quality	Genome-fragment	17.68	HMM-based (lower-bound)	40.08	1.0	low-confidence Provirus
+TC21_NODE_10_length_663821_cov_141.374759_fragment_2	39033	No	NA	29	1	5	Low-quality	Genome-fragment	36.06	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_65_length_186223_cov_6.252418_fragment_1	52495	Yes	43605	76	15	8	Medium-quality	Genome-fragment	77.96	HMM-based (lower-bound)	16.93	1.0	
+TC36_NODE_1554_length_5692_cov_1.720575	5692	No	NA	7	2	0	Low-quality	Genome-fragment	9.89	HMM-based (lower-bound)	0.0	1.0	
+TC14_NODE_809_length_11973_cov_1.617255	11973	No	NA	20	8	0	Low-quality	Genome-fragment	13.66	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_364_length_42087_cov_13.921640_fragment_1	27136	No	NA	37	17	1	Medium-quality	Genome-fragment	55.77	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_826_length_15718_cov_1.951575_fragment_1	9795	No	NA	11	9	0	Low-quality	Genome-fragment	11.48	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_55_length_203084_cov_8.262942_fragment_1	42130	No	NA	51	19	0	Medium-quality	Genome-fragment	60.93	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_945_length_13098_cov_1.512297	13098	No	NA	23	4	0	Low-quality	Genome-fragment	18.0	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_32096_fragment_1	19943	No	NA	14	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+TC26_NODE_150_length_46344_cov_163.924941	46344	No	NA	48	7	1	Medium-quality	Genome-fragment	71.89	HMM-based (lower-bound)	0.0	1.0	
+TC34_NODE_97_length_24917_cov_420.315732	24917	No	NA	36	1	0	Low-quality	Genome-fragment	12.08	HMM-based (lower-bound)	0.0	1.0	
+TC50_NODE_2_length_837294_cov_3.893024_fragment_1	54807	No	NA	86	28	2	Medium-quality	Genome-fragment	86.5	HMM-based (lower-bound)	0.0	1.0	
+TC33_NODE_170_length_11079_cov_14.120526	11079	No	NA	17	6	0	Low-quality	Genome-fragment	13.96	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_13_length_671287_cov_7.523416_fragment_9	19714	No	NA	24	1	2	Low-quality	Genome-fragment	36.05	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_13_length_671287_cov_7.523416_fragment_7	41219	No	NA	73	20	3	Medium-quality	Genome-fragment	56.55	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_64_length_374552_cov_6.854451_fragment_6	79910	No	NA	126	34	7	Medium-quality	Genome-fragment	84.84	HMM-based (lower-bound)	0.0	1.0	
+TC26_NODE_325_length_17971_cov_168.797691	17971	Yes	12386	22	5	4	Low-quality	Genome-fragment	17.46	HMM-based (lower-bound)	31.08	1.0	
+TC26_NODE_61_length_118463_cov_9.535391_fragment_2	61670	Yes	39589	70	7	14	Low-quality	Genome-fragment	44.33	HMM-based (lower-bound)	35.81	1.0	
+TC26_NODE_61_length_118463_cov_9.535391_fragment_1	7210	No	NA	8	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC2_NODE_19_length_687920_cov_7.213556_fragment_7	47892	Yes	39077	49	10	9	Medium-quality	Genome-fragment	55.61	HMM-based (lower-bound)	18.41	1.0	
+TC2_NODE_21_length_671873_cov_26.916482_fragment_7	52691	No	NA	77	22	1	Medium-quality	Genome-fragment	85.92	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_1342	6429	No	NA	13	7	0	Low-quality	Genome-fragment	9.88	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_183_length_60869_cov_5.675101_fragment_1	15039	No	NA	13	3	1	Low-quality	Genome-fragment	19.55	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_16296	6672	No	NA	11	5	0	Low-quality	Genome-fragment	7.99	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_260_length_81493_cov_3.605916_fragment_1	28486	No	NA	36	11	0	Low-quality	Genome-fragment	39.76	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_5_length_839839_cov_12.217828_fragment_4	43475	No	NA	57	28	1	Medium-quality	Genome-fragment	86.0	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_10815	31613	No	NA	35	10	1	Low-quality	Genome-fragment	38.23	HMM-based (lower-bound)	0.0	1.0	
+TC8_NODE_34_length_261083_cov_2.914426_fragment_2	15512	No	NA	18	2	2	Medium-quality	Genome-fragment	71.62	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_31888_fragment_1	34920	Yes	25521	38	8	7	Low-quality	Genome-fragment	47.97	HMM-based (lower-bound)	26.92	1.0	low-confidence Provirus
+TC36_NODE_142_length_56781_cov_2.139566_fragment_1	16625	Yes	8891	18	5	4	Low-quality	Genome-fragment	15.82	HMM-based (lower-bound)	46.52	1.0	
+TC27_NODE_206_length_6257_cov_1.952365	6257	No	NA	7	1	0	Low-quality	Genome-fragment	5.6	HMM-based (lower-bound)	0.0	1.0	
+TC13_NODE_5_length_893776_cov_11.053438_fragment_12	67609	No	NA	106	32	3	High-quality	High-quality	90.28	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_5_length_1149355_cov_47.716533_fragment_2	13394	No	NA	12	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC32_NODE_5_length_1149355_cov_47.716533_fragment_5	21606	Yes	8863	17	3	4	Low-quality	Genome-fragment	4.38	HMM-based (lower-bound)	58.98	1.0	
+TC32_NODE_5_length_1149355_cov_47.716533_fragment_13	12963	No	NA	13	5	0	Low-quality	Genome-fragment	24.58	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_5_length_1149355_cov_47.716533_fragment_3	74695	Yes	50045	71	17	9	Medium-quality	Genome-fragment	71.38	HMM-based (lower-bound)	33.0	1.0	low-confidence Provirus
+TC32_NODE_5_length_1149355_cov_47.716533_fragment_7	9941	No	NA	12	5	0	Low-quality	Genome-fragment	12.38	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_47_length_416090_cov_2.838178_fragment_4	32201	Yes	24836	41	19	5	Low-quality	Genome-fragment	30.32	HMM-based (lower-bound)	22.87	1.0	
+TC12_NODE_60_length_188617_cov_283.509714_fragment_3	25018	No	NA	33	17	0	Low-quality	Genome-fragment	36.1	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_281_length_5122_cov_40.560961	5122	No	NA	5	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC21_NODE_778_length_9445_cov_1.307899	9445	No	NA	14	1	0	Low-quality	Genome-fragment	14.13	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_164_length_24167_cov_1.355158	24167	No	NA	33	16	1	Low-quality	Genome-fragment	43.15	HMM-based (lower-bound)	0.0	1.0	
+TC18_NODE_3_length_923199_cov_12.620061_fragment_3	46649	Yes	43530	60	10	4	Medium-quality	Genome-fragment	56.57	HMM-based (lower-bound)	6.69	1.0	
+TC25_k99_2964	40736	No	NA	59	28	0	Medium-quality	Genome-fragment	84.66	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_27017_fragment_1	44694	Yes	38794	52	21	4	Medium-quality	Genome-fragment	83.83	HMM-based (lower-bound)	13.2	1.0	
+TC30_NODE_2_length_2539971_cov_38.752415_fragment_26	80869	Yes	68484	106	40	9	Medium-quality	Genome-fragment	85.23	HMM-based (lower-bound)	15.31	1.0	
+TC30_NODE_2_length_2539971_cov_38.752415_fragment_24	78694	Yes	56565	113	22	11	Complete	High-quality	100.0	Provirus (medium-confidence)	28.12	1.0	
+TC30_NODE_2_length_2539971_cov_38.752415_fragment_8	16810	No	NA	20	11	2	Low-quality	Genome-fragment	31.08	HMM-based (lower-bound)	0.0	1.0	
+TC30_NODE_2_length_2539971_cov_38.752415_fragment_13	18752	Yes	8586	20	3	5	Low-quality	Genome-fragment	11.56	HMM-based (lower-bound)	54.21	1.0	
+TC13_NODE_509_length_5513_cov_2.150576	5513	No	NA	8	7	0	Complete	High-quality	100.0	DTR (high-confidence)	0.0	1.02	
+TC29_NODE_2_length_2015733_cov_3.617248_fragment_26	42059	No	NA	70	21	1	Low-quality	Genome-fragment	49.67	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_2_length_2015733_cov_3.617248_fragment_3	10142	No	NA	8	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_2_length_2015733_cov_3.617248_fragment_16	18102	No	NA	30	1	3	Low-quality	Genome-fragment	10.1	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_2_length_2015733_cov_3.617248_fragment_1	53437	No	NA	70	24	3	Medium-quality	Genome-fragment	83.8	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_2_length_2015733_cov_3.617248_fragment_14	12300	No	NA	11	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_2_length_2015733_cov_3.617248_fragment_27	20797	Yes	16652	23	4	2	Low-quality	Genome-fragment	14.9	HMM-based (lower-bound)	19.93	1.0	
+TC36_NODE_179_length_40445_cov_1.485441_fragment_1	26852	No	NA	41	6	1	Low-quality	Genome-fragment	39.52	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_432_length_18205_cov_1.408950	18205	Yes	14387	33	5	3	Low-quality	Genome-fragment	12.62	HMM-based (lower-bound)	20.97	1.0	
+TC24_NODE_34_length_424314_cov_2.316250_fragment_6	16593	No	NA	21	11	0	Low-quality	Genome-fragment	30.5	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_2027_length_5137_cov_0.890619	5137	No	NA	6	3	0	Low-quality	Genome-fragment	8.16	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_18_length_336079_cov_81.060524_fragment_1	18256	No	NA	29	11	0	Low-quality	Genome-fragment	19.49	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_18_length_336079_cov_81.060524_fragment_8	23026	No	NA	39	16	0	Medium-quality	Genome-fragment	51.11	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_62_length_374518_cov_18.075963_fragment_6	79910	No	NA	126	34	7	Medium-quality	Genome-fragment	84.84	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_30_length_339274_cov_2.169696_fragment_2	21736	Yes	15861	28	7	5	Low-quality	Genome-fragment	25.48	HMM-based (lower-bound)	27.03	1.0	
+TC5_NODE_19_length_351014_cov_1.745727_fragment_1	14405	No	NA	15	1	1	Low-quality	Genome-fragment	31.69	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_356_length_33582_cov_1.466687_fragment_1	9864	No	NA	14	3	0	Low-quality	Genome-fragment	4.78	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_14_length_630909_cov_2.214919_fragment_3	15939	No	NA	18	6	0	Low-quality	Genome-fragment	21.62	HMM-based (lower-bound)	0.0	1.0	
+TC23_NODE_280_length_22626_cov_3.223210	22626	No	NA	19	1	4	Low-quality	Genome-fragment	29.64	HMM-based (lower-bound)	0.0	1.01	
+TC39_NODE_1055_length_5848_cov_0.709841	5848	No	NA	9	3	0	Low-quality	Genome-fragment	9.56	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_105_length_128799_cov_19.322906_fragment_1	58668	No	NA	83	33	2	High-quality	High-quality	92.1	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_1206_length_7247_cov_1.132584	7247	No	NA	8	1	0	Low-quality	Genome-fragment	9.49	HMM-based (lower-bound)	0.0	1.0	
+TC42_NODE_259_length_47336_cov_2.494588	47336	No	NA	57	17	4	Medium-quality	Genome-fragment	70.96	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_29_length_394088_cov_19.543262_fragment_4	49490	No	NA	47	0	14	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC1_NODE_338_length_41068_cov_10.513446	41068	No	NA	56	19	1	Medium-quality	Genome-fragment	80.3	HMM-based (lower-bound)	0.0	1.0	
+TC12_NODE_31_length_298929_cov_2.733697_fragment_1	42495	No	NA	59	19	0	Medium-quality	Genome-fragment	64.61	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_36_length_475522_cov_72.033383_fragment_1	58928	No	NA	68	11	2	Medium-quality	Genome-fragment	88.51	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_49_length_218453_cov_187.899655_fragment_1	13090	No	NA	9	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC21_NODE_49_length_218453_cov_187.899655_fragment_2	53272	No	NA	62	11	1	Medium-quality	Genome-fragment	88.37	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_609_length_8493_cov_1.230337	8493	No	NA	12	4	0	Low-quality	Genome-fragment	12.81	HMM-based (lower-bound)	0.0	1.0	
+TC41_NODE_126_length_64850_cov_1.873893_fragment_1	12560	No	NA	14	5	0	Low-quality	Genome-fragment	25.41	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_1380_length_5418_cov_1.051408	5418	No	NA	10	6	0	Low-quality	Genome-fragment	9.1	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_1293_length_6635_cov_0.883835	6635	No	NA	7	3	0	Low-quality	Genome-fragment	9.8	HMM-based (lower-bound)	0.0	1.0	
+TC18_NODE_355_length_6784_cov_1.514196	6784	No	NA	9	1	0	Low-quality	Genome-fragment	12.03	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_10448	31215	No	NA	44	15	0	Low-quality	Genome-fragment	40.38	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_15_length_389592_cov_33.467000_fragment_1	13019	No	NA	17	10	0	Low-quality	Genome-fragment	17.02	HMM-based (lower-bound)	0.0	1.0	
+TC8_NODE_118_length_74115_cov_3458.954087	74115	No	NA	106	11	1	Medium-quality	Genome-fragment	61.49	HMM-based (lower-bound)	0.0	1.0	low-confidence DTR
+TC21_NODE_629_length_11536_cov_1.269875	11536	No	NA	15	7	1	Low-quality	Genome-fragment	16.7	HMM-based (lower-bound)	0.0	1.0	
+TC5_NODE_42_length_173343_cov_1.925630_fragment_4	17870	No	NA	20	0	8	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC5_NODE_42_length_173343_cov_1.925630_fragment_2	17069	No	NA	27	9	1	Low-quality	Genome-fragment	26.08	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_27847_fragment_5	38060	Yes	15567	39	12	9	Low-quality	Genome-fragment	32.87	HMM-based (lower-bound)	59.1	1.0	
+TC19_k99_27847_fragment_2	25409	No	NA	18	1	4	Low-quality	Genome-fragment	13.23	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_19554	12268	No	NA	15	9	0	Low-quality	Genome-fragment	15.73	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_195_length_37807_cov_6.174443	37807	No	NA	57	18	0	Medium-quality	Genome-fragment	65.13	HMM-based (lower-bound)	0.0	1.01	low-confidence DTR
+TC10_NODE_137_length_8663_cov_6.226645	8663	No	NA	11	6	0	Low-quality	Genome-fragment	11.61	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_9116_fragment_1	10728	No	NA	18	1	2	High-quality	High-quality	100.0	HMM-based (lower-bound)	0.0	1.0	
+TC40_NODE_8_length_382506_cov_115.987729_fragment_2	91057	No	NA	134	25	2	Medium-quality	Genome-fragment	86.97	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_5978	5893	No	NA	10	5	0	Low-quality	Genome-fragment	3.44	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_622_length_20530_cov_1.513895	20530	No	NA	25	9	0	Low-quality	Genome-fragment	33.87	HMM-based (lower-bound)	0.0	1.0	
+TC10_NODE_3_length_1587167_cov_5.561156_fragment_5	15754	No	NA	23	1	0	Low-quality	Genome-fragment	8.61	HMM-based (lower-bound)	0.0	1.0	
+TC10_NODE_3_length_1587167_cov_5.561156_fragment_9	14952	Yes	12321	18	6	2	Low-quality	Genome-fragment	23.92	HMM-based (lower-bound)	17.6	1.0	
+TC11_NODE_81_length_177607_cov_2.780341_fragment_1	36236	No	NA	46	7	0	Medium-quality	Genome-fragment	64.44	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_922_length_8174_cov_6.020380	8174	No	NA	11	1	1	Low-quality	Genome-fragment	11.5	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_70_length_349779_cov_17.321517_fragment_1	56356	No	NA	91	18	1	Medium-quality	Genome-fragment	74.88	HMM-based (lower-bound)	0.0	1.0	
+TC37_NODE_29_length_373789_cov_3.370501_fragment_2	12568	No	NA	11	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC37_NODE_29_length_373789_cov_3.370501_fragment_4	5464	No	NA	8	2	0	Medium-quality	Genome-fragment	55.47	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_1285_length_6345_cov_3.962528	6345	No	NA	7	5	0	Low-quality	Genome-fragment	10.56	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_66_length_66852_cov_1.404361_fragment_1	45209	Yes	37088	53	35	7	Medium-quality	Genome-fragment	60.55	HMM-based (lower-bound)	17.96	1.0	low-confidence Provirus
+TC38_NODE_263_length_14327_cov_0.906690	14327	No	NA	15	10	1	Low-quality	Genome-fragment	26.18	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_84_length_141430_cov_3.900250_fragment_1	12560	No	NA	12	5	0	Low-quality	Genome-fragment	25.41	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_84_length_141430_cov_3.900250_fragment_3	11364	No	NA	12	4	0	Low-quality	Genome-fragment	9.89	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_1296_length_6268_cov_1.641915	6268	Yes	3048	9	3	2	Low-quality	Genome-fragment	3.32	HMM-based (lower-bound)	51.37	1.0	
+TC44_NODE_23_length_648394_cov_5.577250_fragment_4	13292	No	NA	11	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC44_NODE_23_length_648394_cov_5.577250_fragment_7	23512	Yes	12749	27	8	9	Low-quality	Genome-fragment	18.42	HMM-based (lower-bound)	45.78	1.0	low-confidence Provirus
+TC25_k99_10197_fragment_1	47022	No	NA	63	19	2	Medium-quality	Genome-fragment	83.51	HMM-based (lower-bound)	0.0	1.0	
+TC20_NODE_5_length_1493068_cov_3.623527_fragment_1	17702	No	NA	28	10	0	Low-quality	Genome-fragment	22.56	HMM-based (lower-bound)	0.0	1.0	
+TC42_NODE_51_length_256701_cov_15.389868_fragment_4	31376	No	NA	38	20	0	Low-quality	Genome-fragment	39.26	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_11_length_673704_cov_3.303627_fragment_1	32543	No	NA	33	1	4	Low-quality	Genome-fragment	42.86	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_478_length_34249_cov_1.798371	34249	Yes	31087	45	11	2	Medium-quality	Genome-fragment	55.06	HMM-based (lower-bound)	9.23	1.0	
+TC39_NODE_17_length_560322_cov_15.182160_fragment_6	63730	No	NA	89	35	2	Medium-quality	Genome-fragment	88.23	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_17_length_560322_cov_15.182160_fragment_8	40253	No	NA	42	1	5	Medium-quality	Genome-fragment	58.93	HMM-based (lower-bound)	0.0	1.01	
+TC2_NODE_222_length_99539_cov_64.537752_fragment_1	39388	No	NA	56	13	0	Medium-quality	Genome-fragment	51.61	HMM-based (lower-bound)	0.0	1.0	
+TC28_NODE_16_length_478234_cov_6.417026_fragment_3	43075	Yes	34815	51	15	3	Medium-quality	Genome-fragment	58.6	HMM-based (lower-bound)	19.18	1.0	
+TC43_NODE_380_length_5534_cov_2.150915	5534	No	NA	7	3	0	Low-quality	Genome-fragment	5.37	HMM-based (lower-bound)	0.0	1.03	
+TC8_NODE_17_length_406625_cov_8.470312_fragment_2	46132	No	NA	66	12	2	Medium-quality	Genome-fragment	77.45	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_16_length_473899_cov_13.755216_fragment_4	33279	No	NA	39	1	4	Medium-quality	Genome-fragment	66.98	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_4709_fragment_1	9937	No	NA	18	3	1	Low-quality	Genome-fragment	14.09	HMM-based (lower-bound)	0.0	1.01	
+TC49_NODE_6_length_646733_cov_70.616468_fragment_7	6378	No	NA	8	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC49_NODE_6_length_646733_cov_70.616468_fragment_9	12725	No	NA	13	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC22_k99_11109	9130	No	NA	11	6	0	Low-quality	Genome-fragment	11.84	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_41_length_577301_cov_7.965251_fragment_1	38979	No	NA	53	15	0	Medium-quality	Genome-fragment	56.68	HMM-based (lower-bound)	0.0	1.0	
+TC26_NODE_621_length_8588_cov_1.341094	8588	No	NA	8	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_56_length_383418_cov_17.951194_fragment_7	30799	Yes	26278	32	7	3	Low-quality	Genome-fragment	22.97	HMM-based (lower-bound)	14.68	1.0	
+TC29_NODE_56_length_383418_cov_17.951194_fragment_1	35667	Yes	11778	48	3	10	Low-quality	Genome-fragment	17.34	HMM-based (lower-bound)	66.98	1.0	
+TC11_NODE_772_length_18823_cov_1.480317	18823	No	NA	25	14	0	Low-quality	Genome-fragment	23.95	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_16_length_430220_cov_6.158608_fragment_5	15440	No	NA	22	2	2	Low-quality	Genome-fragment	18.55	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_16_length_430220_cov_6.158608_fragment_1	7037	Yes	4645	9	1	2	Low-quality	Genome-fragment	7.06	HMM-based (lower-bound)	33.99	1.0	
+TC46_NODE_278_length_32779_cov_1.266416_fragment_1	22441	No	NA	13	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_25_length_637024_cov_22.825317_fragment_4	80869	Yes	68897	106	40	9	Medium-quality	Genome-fragment	85.38	HMM-based (lower-bound)	14.8	1.0	
+TC29_NODE_25_length_637024_cov_22.825317_fragment_5	13508	No	NA	21	4	1	Low-quality	Genome-fragment	24.95	HMM-based (lower-bound)	0.0	1.0	
+TC24_NODE_886_length_7064_cov_0.762577	7064	No	NA	5	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC15_NODE_599_length_21877_cov_21.595908_fragment_2	6219	No	NA	8	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC46_NODE_490_length_18758_cov_2.175085_fragment_1	8663	No	NA	13	3	0	Medium-quality	Genome-fragment	62.95	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_747_length_17250_cov_2.151259	17250	No	NA	20	8	0	Low-quality	Genome-fragment	22.15	HMM-based (lower-bound)	0.0	1.01	
+TC1_NODE_29_length_679208_cov_58.042465_fragment_3	10337	No	NA	11	1	1	Low-quality	Genome-fragment	9.19	HMM-based (lower-bound)	0.0	1.0	
+TC14_NODE_1609_length_5094_cov_1.379706	5094	No	NA	7	3	0	Low-quality	Genome-fragment	8.77	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_1385_length_5400_cov_0.818320	5400	No	NA	12	6	0	Low-quality	Genome-fragment	11.15	HMM-based (lower-bound)	0.0	1.0	
+TC17_NODE_236_length_17747_cov_621.388479	17747	No	NA	17	1	1	Low-quality	Genome-fragment	8.61	HMM-based (lower-bound)	0.0	1.01	
+TC33_NODE_12_length_777431_cov_34.133165_fragment_4	31533	No	NA	37	17	0	Low-quality	Genome-fragment	47.89	HMM-based (lower-bound)	0.0	1.03	
+TC47_NODE_43_length_194831_cov_38.586357_fragment_5	60906	Yes	52750	72	12	6	Medium-quality	Genome-fragment	54.95	HMM-based (lower-bound)	13.39	1.0	
+TC43_NODE_34_length_374582_cov_18.948958_fragment_1	79910	No	NA	126	34	7	Medium-quality	Genome-fragment	84.84	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_494_length_21697_cov_160.038248	21697	No	NA	37	8	2	Low-quality	Genome-fragment	27.84	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_1061_length_10806_cov_1.353217	10806	No	NA	15	6	1	Low-quality	Genome-fragment	14.02	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_11_length_500533_cov_12.151295_fragment_4	18467	Yes	15042	22	9	3	Low-quality	Genome-fragment	21.23	HMM-based (lower-bound)	18.55	1.0	
+TC11_NODE_11_length_500533_cov_12.151295_fragment_6	55646	Yes	40697	81	21	9	Complete	High-quality	100.0	Provirus (medium-confidence)	26.86	1.0	
+TC2_NODE_613_length_17127_cov_1.124941	17127	No	NA	18	4	0	Low-quality	Genome-fragment	24.7	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_1721_length_5433_cov_0.851300	5433	Yes	4273	8	1	1	Low-quality	Genome-fragment	2.27	HMM-based (lower-bound)	21.35	1.0	
+TC29_NODE_105_length_242799_cov_22.456620_fragment_2	69948	Yes	57878	106	21	6	Medium-quality	Genome-fragment	84.85	HMM-based (lower-bound)	17.26	1.0	
+TC10_NODE_6_length_827305_cov_6.045555_fragment_3	15581	No	NA	16	8	0	Low-quality	Genome-fragment	26.37	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_2_length_1190736_cov_102.465352_fragment_5	35966	No	NA	53	23	0	Medium-quality	Genome-fragment	75.76	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_1246_length_6861_cov_0.987377	6861	Yes	4057	10	4	2	Low-quality	Genome-fragment	4.12	HMM-based (lower-bound)	40.87	1.0	
+TC29_NODE_7_length_1672870_cov_23.016597_fragment_13	18752	Yes	8586	20	3	5	Low-quality	Genome-fragment	11.56	HMM-based (lower-bound)	54.21	1.0	
+TC29_NODE_7_length_1672870_cov_23.016597_fragment_8	16810	No	NA	20	11	2	Low-quality	Genome-fragment	31.08	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_16_length_621533_cov_2.524435_fragment_5	35966	No	NA	53	23	0	Medium-quality	Genome-fragment	75.76	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_16_length_621533_cov_2.524435_fragment_1	64292	No	NA	92	18	2	Medium-quality	Genome-fragment	83.25	HMM-based (lower-bound)	0.0	1.0	
+TC5_NODE_164_length_35650_cov_1.820314	35650	No	NA	59	10	6	Medium-quality	Genome-fragment	52.53	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_71_length_174740_cov_3.156449_fragment_1	57979	Yes	38004	72	11	12	Medium-quality	Genome-fragment	53.24	HMM-based (lower-bound)	34.45	1.0	low-confidence Provirus
+TC20_NODE_2_length_2062810_cov_9.598793_fragment_17	20522	No	NA	22	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC20_NODE_2_length_2062810_cov_9.598793_fragment_22	12977	No	NA	17	1	1	Low-quality	Genome-fragment	8.02	HMM-based (lower-bound)	0.0	1.0	
+TC20_NODE_2_length_2062810_cov_9.598793_fragment_11	21947	Yes	17003	28	3	4	Low-quality	Genome-fragment	23.46	HMM-based (lower-bound)	22.53	1.0	
+TC25_k99_7339	6904	No	NA	5	3	0	Low-quality	Genome-fragment	9.03	HMM-based (lower-bound)	0.0	1.01	
+TC20_NODE_135_length_14466_cov_1.040100	14466	No	NA	25	6	0	Low-quality	Genome-fragment	33.65	HMM-based (lower-bound)	0.0	1.0	
+TC17_NODE_114_length_35533_cov_1.733915_fragment_1	24084	No	NA	36	6	4	Low-quality	Genome-fragment	27.73	HMM-based (lower-bound)	0.0	1.0	
+TC10_NODE_15_length_430127_cov_162.451031_fragment_3	96282	Yes	67906	122	17	14	Medium-quality	Genome-fragment	81.15	HMM-based (lower-bound)	29.47	1.0	
+TC15_NODE_1255_length_8109_cov_0.942370	8109	No	NA	10	3	0	Low-quality	Genome-fragment	7.84	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_3_length_2007253_cov_17.942374_fragment_4	59573	Yes	57408	78	27	4	Medium-quality	Genome-fragment	89.98	HMM-based (lower-bound)	3.63	1.0	
+TC29_NODE_3_length_2007253_cov_17.942374_fragment_5	44707	No	NA	66	19	2	Medium-quality	Genome-fragment	57.09	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_36240_fragment_1	21751	Yes	15778	27	11	4	Low-quality	Genome-fragment	20.1	HMM-based (lower-bound)	27.46	1.0	
+TC9_NODE_96_length_180047_cov_4.128713_fragment_4	7711	No	NA	10	1	0	Low-quality	Genome-fragment	6.86	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_1372_length_6917_cov_0.808689	6917	No	NA	10	1	0	Low-quality	Genome-fragment	3.35	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_802_length_10109_cov_1.260068	10109	No	NA	13	7	0	Low-quality	Genome-fragment	14.49	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_1210_length_6166_cov_126.720980	6166	No	NA	5	2	0	Low-quality	Genome-fragment	9.07	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_909_length_8815_cov_1.146984	8815	No	NA	8	3	0	Low-quality	Genome-fragment	15.7	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_41_length_303396_cov_4.075969_fragment_1	13019	No	NA	17	10	0	Low-quality	Genome-fragment	17.02	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_45_length_232469_cov_7.710083_fragment_4	44066	Yes	32218	65	25	4	Medium-quality	Genome-fragment	66.62	HMM-based (lower-bound)	26.89	1.0	
+TC10_NODE_155_length_6775_cov_0.951157	6775	No	NA	8	6	0	Low-quality	Genome-fragment	15.33	HMM-based (lower-bound)	0.0	1.0	
+TC14_NODE_940_length_10295_cov_1.303108	10295	No	NA	13	9	0	Low-quality	Genome-fragment	14.01	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_8152_fragment_1	31595	Yes	29930	47	17	2	Medium-quality	Genome-fragment	62.62	HMM-based (lower-bound)	5.27	1.0	
+TC50_NODE_14_length_229535_cov_3.713253_fragment_3	44048	No	NA	50	26	0	High-quality	High-quality	93.49	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_513_length_20992_cov_111.629954	20992	No	NA	28	11	0	Low-quality	Genome-fragment	26.62	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_19_length_312191_cov_19.359852_fragment_2	44233	No	NA	50	12	2	Medium-quality	Genome-fragment	59.22	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_19_length_312191_cov_19.359852_fragment_3	12922	No	NA	16	9	0	Low-quality	Genome-fragment	16.9	HMM-based (lower-bound)	0.0	1.0	
+TC24_NODE_13_length_775049_cov_10.842307_fragment_8	57782	Yes	33747	75	13	14	Low-quality	Genome-fragment	41.96	HMM-based (lower-bound)	41.6	1.0	
+TC24_NODE_13_length_775049_cov_10.842307_fragment_1	49734	Yes	45225	75	20	3	Medium-quality	Genome-fragment	70.19	HMM-based (lower-bound)	9.07	1.0	
+TC39_NODE_114_length_95379_cov_1.573269_fragment_2	39537	No	NA	59	23	2	Medium-quality	Genome-fragment	61.52	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_400_length_20824_cov_5.041359	20824	No	NA	31	14	1	Low-quality	Genome-fragment	32.77	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_92_length_110352_cov_3.862173_fragment_1	13647	Yes	10096	17	5	3	Low-quality	Genome-fragment	10.82	HMM-based (lower-bound)	26.02	1.0	
+TC29_NODE_12_length_976053_cov_17.804172_fragment_16	71859	Yes	42261	66	3	8	Low-quality	Genome-fragment	45.44	HMM-based (lower-bound)	41.19	1.04	
+TC29_NODE_12_length_976053_cov_17.804172_fragment_13	48021	Yes	22392	54	2	10	Low-quality	Genome-fragment	12.82	HMM-based (lower-bound)	53.37	1.0	low-confidence Provirus
+TC29_NODE_12_length_976053_cov_17.804172_fragment_9	28026	No	NA	24	0	7	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_12_length_976053_cov_17.804172_fragment_8	21558	No	NA	19	1	1	Low-quality	Genome-fragment	14.9	HMM-based (lower-bound)	0.0	1.0	
+TC12_NODE_244_length_31209_cov_39.813365	31209	No	NA	30	7	0	Low-quality	Genome-fragment	27.8	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_22_length_385827_cov_11.069865_fragment_1	14477	No	NA	27	2	3	High-quality	High-quality	100.0	HMM-based (lower-bound)	0.0	1.69	high kmer_freq may indicate large duplication
+TC18_NODE_314_length_7318_cov_1.233347	7318	No	NA	13	2	0	Low-quality	Genome-fragment	9.16	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_165_length_145730_cov_6.270455_fragment_1	46942	Yes	40610	63	28	4	Complete	High-quality	100.0	Provirus (medium-confidence)	13.49	1.0	
+TC13_NODE_131_length_32190_cov_1.431401_fragment_1	23621	No	NA	36	17	0	Low-quality	Genome-fragment	43.47	HMM-based (lower-bound)	0.0	1.0	
+TC14_NODE_143_length_70753_cov_1.591963_fragment_2	37465	No	NA	65	27	0	Medium-quality	Genome-fragment	56.02	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_16_length_1054541_cov_7.646558_fragment_8	7879	No	NA	8	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC1_NODE_16_length_1054541_cov_7.646558_fragment_2	33444	Yes	18341	38	11	7	Low-quality	Genome-fragment	33.91	HMM-based (lower-bound)	45.16	1.0	
+TC38_NODE_91_length_43616_cov_15.600428	43616	Yes	36281	53	11	4	Medium-quality	Genome-fragment	54.76	HMM-based (lower-bound)	16.82	1.03	
+TC23_NODE_26_length_409670_cov_6.281934_fragment_4	11947	No	NA	15	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC23_NODE_26_length_409670_cov_6.281934_fragment_3	40082	No	NA	55	14	2	Medium-quality	Genome-fragment	62.15	HMM-based (lower-bound)	0.0	1.02	
+TC13_NODE_21_length_324279_cov_10.978198_fragment_2	45163	No	NA	54	26	0	High-quality	High-quality	93.98	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_424_length_40160_cov_12.293758	40160	No	NA	70	26	0	Medium-quality	Genome-fragment	75.14	HMM-based (lower-bound)	0.0	1.0	low-confidence DTR
+TC10_NODE_31_length_224460_cov_162.784317_fragment_3	55391	Yes	26140	63	8	12	Low-quality	Genome-fragment	49.94	HMM-based (lower-bound)	52.81	1.01	
+TC47_NODE_7_length_713845_cov_10.389930_fragment_7	21635	No	NA	26	11	5	Low-quality	Genome-fragment	39.77	HMM-based (lower-bound)	0.0	1.0	
+TC47_NODE_7_length_713845_cov_10.389930_fragment_11	9933	No	NA	8	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC21_NODE_306_length_31271_cov_30.025944	31271	No	NA	45	15	0	Low-quality	Genome-fragment	40.45	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_4_length_778944_cov_6.565113_fragment_7	21298	No	NA	19	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC7_NODE_4_length_778944_cov_6.565113_fragment_1	31058	No	NA	50	21	0	Low-quality	Genome-fragment	34.96	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_4_length_778944_cov_6.565113_fragment_6	11870	No	NA	16	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC14_NODE_348_length_31590_cov_1.060420_fragment_1	16843	No	NA	21	9	0	Low-quality	Genome-fragment	23.79	HMM-based (lower-bound)	0.0	1.0	
+TC8_NODE_28_length_293100_cov_2.336639_fragment_1	51453	No	NA	88	12	4	Medium-quality	Genome-fragment	75.2	HMM-based (lower-bound)	0.0	1.0	
+TC26_NODE_30_length_179076_cov_2.816020_fragment_2	13237	No	NA	16	4	0	Low-quality	Genome-fragment	26.43	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_12_length_801235_cov_3.561314_fragment_1	13854	No	NA	16	11	0	Low-quality	Genome-fragment	25.67	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_24_length_636103_cov_4.834009_fragment_1	88528	No	NA	85	4	9	High-quality	High-quality	95.52	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_672_length_11480_cov_2.104818	11480	No	NA	23	9	0	Low-quality	Genome-fragment	26.77	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_840_length_14591_cov_75.606540	14591	No	NA	17	1	0	Low-quality	Genome-fragment	30.56	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_2449_fragment_1	14399	No	NA	23	4	1	Low-quality	Genome-fragment	26.59	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_9085_fragment_1	69948	Yes	57878	106	21	6	Medium-quality	Genome-fragment	84.85	HMM-based (lower-bound)	17.26	1.0	
+TC25_k99_5937_fragment_4	59573	Yes	57408	78	27	4	Medium-quality	Genome-fragment	89.98	HMM-based (lower-bound)	3.63	1.0	
+TC42_NODE_4_length_2038731_cov_15.672222_fragment_3	21853	No	NA	25	13	2	Low-quality	Genome-fragment	39.75	HMM-based (lower-bound)	0.0	1.01	
+TC42_NODE_4_length_2038731_cov_15.672222_fragment_15	20160	No	NA	26	1	3	Low-quality	Genome-fragment	13.93	HMM-based (lower-bound)	0.0	1.0	
+TC48_NODE_192_length_27554_cov_2.486054_fragment_1	13740	Yes	8632	15	5	3	Low-quality	Genome-fragment	9.25	HMM-based (lower-bound)	37.18	1.0	
+TC50_NODE_7_length_404903_cov_219.973412_fragment_2	77724	Yes	45253	92	9	17	Low-quality	Genome-fragment	39.39	HMM-based (lower-bound)	41.78	1.0	
+TC39_NODE_511_length_21034_cov_86.696274	21034	No	NA	22	1	0	Low-quality	Genome-fragment	10.2	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_11250_fragment_1	53664	Yes	50133	82	24	4	Medium-quality	Genome-fragment	76.41	HMM-based (lower-bound)	6.58	1.0	
+TC29_NODE_1164_length_6858_cov_13.078294	6858	No	NA	6	5	0	Low-quality	Genome-fragment	16.58	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_1356_length_7716_cov_3.232969	7716	No	NA	8	4	0	Low-quality	Genome-fragment	8.01	HMM-based (lower-bound)	0.0	1.0	
+TC37_NODE_63_length_179406_cov_2.528333_fragment_2	16145	No	NA	18	7	0	Low-quality	Genome-fragment	31.07	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_142_length_78904_cov_1.463486_fragment_2	6136	Yes	4170	8	2	1	Low-quality	Genome-fragment	5.76	HMM-based (lower-bound)	32.04	1.0	
+TC9_NODE_2228_length_6709_cov_1.063355	6709	Yes	4076	8	1	1	Low-quality	Genome-fragment	3.63	HMM-based (lower-bound)	39.25	1.0	
+TC2_NODE_978_length_7902_cov_0.899035	7902	No	NA	13	1	0	Low-quality	Genome-fragment	16.66	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_7_length_1551751_cov_58.689835_fragment_8	10919	No	NA	7	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC1_NODE_7_length_1551751_cov_58.689835_fragment_13	32497	No	NA	36	1	4	Low-quality	Genome-fragment	28.85	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_1022_length_13183_cov_1.845129	13183	No	NA	16	7	1	Low-quality	Genome-fragment	16.22	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_34_length_490366_cov_3.009440_fragment_2	20289	No	NA	33	3	1	Low-quality	Genome-fragment	17.77	HMM-based (lower-bound)	0.0	1.0	
+TC23_NODE_19_length_552534_cov_19.632887_fragment_4	29988	No	NA	34	15	0	Low-quality	Genome-fragment	40.16	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_129_length_178198_cov_4.280950_fragment_2	40540	Yes	38375	53	22	2	Medium-quality	Genome-fragment	83.0	HMM-based (lower-bound)	5.34	1.0	
+TC21_NODE_305_length_31290_cov_1.652408_fragment_1	18276	No	NA	21	14	0	Low-quality	Genome-fragment	27.45	HMM-based (lower-bound)	0.0	1.0	
+TC4_NODE_3_length_833065_cov_20.884863_fragment_4	40871	No	NA	62	24	0	Medium-quality	Genome-fragment	83.27	HMM-based (lower-bound)	0.0	1.0	
+TC8_NODE_71_length_156221_cov_8.690571_fragment_1	39439	No	NA	58	18	0	Medium-quality	Genome-fragment	85.59	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_76_length_230538_cov_3.780197_fragment_1	37929	No	NA	53	7	2	Low-quality	Genome-fragment	34.94	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_8_length_890968_cov_10.489581_fragment_11	50125	No	NA	62	8	0	Low-quality	Genome-fragment	40.87	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_8_length_890968_cov_10.489581_fragment_14	43935	No	NA	37	0	10	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC6_NODE_124_length_52400_cov_14.404090	52400	No	NA	73	8	2	Medium-quality	Genome-fragment	66.84	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_591_length_27071_cov_1.682675	27071	No	NA	39	12	1	Low-quality	Genome-fragment	49.85	HMM-based (lower-bound)	0.0	1.0	
+TC46_NODE_897_length_8990_cov_1.257588	8990	No	NA	14	3	0	Low-quality	Genome-fragment	16.68	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_18_length_574092_cov_3.736860_fragment_5	22012	Yes	15421	32	6	7	Low-quality	Genome-fragment	17.19	HMM-based (lower-bound)	29.94	1.0	
+TC35_NODE_52_length_75120_cov_138.760244_fragment_2	16706	No	NA	15	5	0	Low-quality	Genome-fragment	14.38	HMM-based (lower-bound)	0.0	1.0	
+TC47_NODE_20_length_337701_cov_5.369863_fragment_8	23026	No	NA	39	16	0	Medium-quality	Genome-fragment	51.11	HMM-based (lower-bound)	0.0	1.0	
+TC47_NODE_20_length_337701_cov_5.369863_fragment_1	18256	No	NA	29	11	0	Low-quality	Genome-fragment	19.49	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_9812_fragment_1	41726	No	NA	60	12	0	Medium-quality	Genome-fragment	65.57	HMM-based (lower-bound)	0.0	1.0	
+TC14_NODE_50_length_190353_cov_1.847450_fragment_2	18906	Yes	12835	20	9	4	Low-quality	Genome-fragment	20.34	HMM-based (lower-bound)	32.11	1.0	
+TC45_NODE_65_length_221895_cov_88.612577_fragment_2	12385	No	NA	21	4	2	Low-quality	Genome-fragment	7.2	HMM-based (lower-bound)	0.0	1.0	
+TC45_NODE_65_length_221895_cov_88.612577_fragment_3	40028	No	NA	41	11	0	Medium-quality	Genome-fragment	54.57	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_309_length_30984_cov_2.809800	30984	No	NA	48	13	0	Low-quality	Genome-fragment	39.18	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_786_length_9405_cov_1.599052	9405	No	NA	14	5	0	Low-quality	Genome-fragment	11.16	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_29942	33202	No	NA	53	12	1	Low-quality	Genome-fragment	38.47	HMM-based (lower-bound)	0.0	1.0	
+TC4_NODE_2_length_1431188_cov_647.988816_fragment_8	100170	Yes	97249	121	8	12	Medium-quality	Genome-fragment	88.43	HMM-based (lower-bound)	2.92	1.01	
+TC4_NODE_2_length_1431188_cov_647.988816_fragment_7	9100	No	NA	9	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC19_k99_31380	16223	No	NA	27	14	0	Low-quality	Genome-fragment	21.35	HMM-based (lower-bound)	0.0	1.0	
+TC46_NODE_438_length_20334_cov_10.561538_fragment_1	11745	No	NA	14	9	1	Low-quality	Genome-fragment	22.27	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_32_length_631580_cov_8.521453_fragment_1	43129	Yes	34199	57	9	6	Low-quality	Genome-fragment	32.76	HMM-based (lower-bound)	20.71	1.0	
+TC48_NODE_27_length_256534_cov_1.857933_fragment_4	18620	No	NA	17	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC7_NODE_85_length_176779_cov_13.731659_fragment_3	11364	No	NA	12	4	0	Low-quality	Genome-fragment	9.89	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_85_length_176779_cov_13.731659_fragment_1	12560	No	NA	12	5	0	Low-quality	Genome-fragment	25.41	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_9818	8877	No	NA	10	4	1	Low-quality	Genome-fragment	10.0	HMM-based (lower-bound)	0.0	1.0	
+TC18_NODE_6_length_542659_cov_48.629967_fragment_1	13789	No	NA	9	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC1_NODE_131_length_232403_cov_5.343049_fragment_2	61254	Yes	31420	63	14	11	Low-quality	Genome-fragment	30.58	HMM-based (lower-bound)	48.71	1.0	
+TC1_NODE_92_length_329205_cov_4.192884_fragment_1	21178	No	NA	28	4	2	Low-quality	Genome-fragment	26.25	HMM-based (lower-bound)	0.0	1.01	
+TC47_NODE_67_length_134637_cov_5.871103_fragment_1	24566	No	NA	38	17	0	Medium-quality	Genome-fragment	51.88	HMM-based (lower-bound)	0.0	1.0	
+TC13_NODE_347_length_9432_cov_1.379581	9432	No	NA	6	5	0	Low-quality	Genome-fragment	20.15	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_34_length_404579_cov_7.470906_fragment_6	9791	No	NA	12	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC44_NODE_108_length_144333_cov_27.927368_fragment_1	61167	No	NA	91	36	2	Medium-quality	Genome-fragment	79.19	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_6_length_893776_cov_98.813834_fragment_12	67609	No	NA	106	32	3	High-quality	High-quality	90.28	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_268_length_37470_cov_1.600514	37470	Yes	32233	39	15	3	Low-quality	Genome-fragment	45.75	HMM-based (lower-bound)	13.98	1.0	
+TC19_k99_34167	17716	No	NA	20	5	2	Low-quality	Genome-fragment	24.92	HMM-based (lower-bound)	0.0	1.0	
+TC8_NODE_11_length_504904_cov_8.476547_fragment_3	36876	No	NA	47	9	1	Medium-quality	Genome-fragment	64.71	HMM-based (lower-bound)	0.0	1.0	
+TC8_NODE_11_length_504904_cov_8.476547_fragment_7	20572	No	NA	26	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC21_NODE_1061_length_7361_cov_1.101189	7361	No	NA	12	8	0	Low-quality	Genome-fragment	11.15	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_58_length_85867_cov_15.317180_fragment_1	38289	No	NA	54	23	1	Medium-quality	Genome-fragment	79.58	HMM-based (lower-bound)	0.0	1.0	
+TC14_NODE_233_length_45725_cov_1.536405_fragment_2	13719	No	NA	18	12	0	Low-quality	Genome-fragment	27.19	HMM-based (lower-bound)	0.0	1.0	
+TC28_NODE_503_length_5809_cov_0.798310	5809	No	NA	11	5	1	Low-quality	Genome-fragment	8.13	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_1872_length_7932_cov_1.104548	7932	Yes	5221	9	1	1	Low-quality	Genome-fragment	7.43	HMM-based (lower-bound)	34.18	1.0	
+TC11_NODE_241_length_75048_cov_3.418734_fragment_1	64912	Yes	41090	56	11	8	Medium-quality	Genome-fragment	53.32	HMM-based (lower-bound)	36.7	1.0	
+TC11_NODE_709_length_21219_cov_1.657453_fragment_1	13042	No	NA	19	8	0	Low-quality	Genome-fragment	29.5	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_13_length_671382_cov_7.418716_fragment_1	51562	No	NA	71	24	1	Medium-quality	Genome-fragment	71.41	HMM-based (lower-bound)	0.0	1.01	
+TC29_NODE_29_length_554407_cov_12.344050_fragment_8	7747	No	NA	8	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_29_length_554407_cov_12.344050_fragment_1	21062	No	NA	25	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_29_length_554407_cov_12.344050_fragment_2	12802	No	NA	11	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_84_length_305247_cov_6.745621_fragment_1	43450	No	NA	60	19	1	Medium-quality	Genome-fragment	77.17	HMM-based (lower-bound)	0.0	1.0	
+TC8_NODE_39_length_244599_cov_8.800587_fragment_5	34502	No	NA	47	15	3	Medium-quality	Genome-fragment	63.12	HMM-based (lower-bound)	0.0	1.0	
+TC18_NODE_227_length_9107_cov_1.102339	9107	No	NA	13	5	0	Low-quality	Genome-fragment	16.4	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_704_length_18229_cov_3.135620	18229	No	NA	21	3	1	Low-quality	Genome-fragment	27.23	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_309_length_12255_cov_351.979799	12255	No	NA	11	4	0	Low-quality	Genome-fragment	14.42	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_145_length_164318_cov_63.382829_fragment_2	36633	No	NA	55	16	1	Medium-quality	Genome-fragment	69.59	HMM-based (lower-bound)	0.0	1.01	
+TC36_NODE_128_length_67482_cov_7.423042_fragment_2	23720	Yes	17648	26	9	5	Low-quality	Genome-fragment	24.9	HMM-based (lower-bound)	25.6	1.0	
+TC29_NODE_51_length_394104_cov_17.550788_fragment_4	49490	No	NA	47	0	14	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC31_NODE_79_length_218616_cov_2.447171_fragment_3	38551	No	NA	44	26	2	Medium-quality	Genome-fragment	87.69	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_31_length_623493_cov_6.258567_fragment_2	15677	No	NA	18	11	0	Low-quality	Genome-fragment	28.82	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_628_length_11202_cov_1.167494	11202	No	NA	16	5	0	Low-quality	Genome-fragment	15.16	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_20_length_734242_cov_6.047160_fragment_4	5231	No	NA	8	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_20_length_734242_cov_6.047160_fragment_11	34087	No	NA	40	15	2	Low-quality	Genome-fragment	43.31	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_157_length_151302_cov_49.954106_fragment_2	39723	No	NA	56	26	0	Medium-quality	Genome-fragment	85.73	HMM-based (lower-bound)	0.0	1.0	
+TC41_NODE_187_length_45232_cov_35.375790	45232	No	NA	68	30	0	Medium-quality	Genome-fragment	64.77	HMM-based (lower-bound)	0.0	1.0	low-confidence DTR
+TC12_NODE_301_length_20469_cov_40.997247	20469	No	NA	20	1	0	Low-quality	Genome-fragment	13.22	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_16_length_813322_cov_4.054799_fragment_5	14306	No	NA	16	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC9_NODE_16_length_813322_cov_4.054799_fragment_16	10889	No	NA	10	1	0	Low-quality	Genome-fragment	8.38	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_16_length_813322_cov_4.054799_fragment_17	21404	No	NA	35	6	3	Low-quality	Genome-fragment	29.32	HMM-based (lower-bound)	0.0	1.0	
+TC49_NODE_3_length_824585_cov_11.483758_fragment_8	16808	No	NA	21	12	0	Low-quality	Genome-fragment	30.34	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_285_length_42799_cov_5.554696_fragment_1	10243	No	NA	12	1	2	Low-quality	Genome-fragment	14.58	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_22133	8009	No	NA	8	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC25_k99_1760_fragment_1	62592	No	NA	77	31	0	Medium-quality	Genome-fragment	84.52	HMM-based (lower-bound)	0.0	1.0	
+TC17_NODE_605_length_7783_cov_1.026515	7783	No	NA	8	3	0	Low-quality	Genome-fragment	15.16	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_10_length_634232_cov_15.237639_fragment_4	12499	No	NA	13	7	0	Low-quality	Genome-fragment	25.53	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_29256	9080	No	NA	14	7	0	Low-quality	Genome-fragment	18.32	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_270_length_37224_cov_6.112974	37224	No	NA	58	14	0	Medium-quality	Genome-fragment	57.85	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_352_length_27904_cov_14.267992_fragment_1	16556	Yes	7015	12	3	6	Low-quality	Genome-fragment	11.4	HMM-based (lower-bound)	57.63	1.0	
+TC24_NODE_71_length_293574_cov_4.923611_fragment_1	74168	Yes	56829	84	7	8	Medium-quality	Genome-fragment	62.17	HMM-based (lower-bound)	23.38	1.0	low-confidence Provirus
+TC42_NODE_425_length_25072_cov_1.989577	25072	No	NA	39	7	0	Low-quality	Genome-fragment	40.61	HMM-based (lower-bound)	0.0	1.0	
+TC5_NODE_325_length_7549_cov_2.278496	7549	No	NA	10	7	0	Low-quality	Genome-fragment	9.97	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_1777_fragment_3	17983	Yes	14183	21	5	4	Low-quality	Genome-fragment	15.2	HMM-based (lower-bound)	21.13	1.0	
+TC3_NODE_222_length_5326_cov_222.593383	5326	No	NA	9	1	0	Low-quality	Genome-fragment	6.13	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_8826	5914	No	NA	10	4	0	Low-quality	Genome-fragment	5.29	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_141_length_85143_cov_2.193587_fragment_1	16886	No	NA	22	9	0	Low-quality	Genome-fragment	24.96	HMM-based (lower-bound)	0.0	1.01	
+TC17_NODE_509_length_9166_cov_551.573404	9166	No	NA	8	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC36_NODE_1661_length_5361_cov_1.501528	5361	No	NA	5	4	0	Low-quality	Genome-fragment	10.96	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_31_length_213053_cov_23.295117_fragment_3	20814	Yes	13257	25	3	3	Low-quality	Genome-fragment	14.24	HMM-based (lower-bound)	36.31	1.0	
+TC22_k99_23362_fragment_1	50810	No	NA	84	34	0	Medium-quality	Genome-fragment	76.19	HMM-based (lower-bound)	0.0	1.0	
+TC12_NODE_10_length_626767_cov_51.693888_fragment_6	32678	No	NA	36	17	1	Low-quality	Genome-fragment	48.63	HMM-based (lower-bound)	0.0	1.0	
+TC30_NODE_4_length_809732_cov_6.471111_fragment_2	15890	No	NA	14	5	1	Low-quality	Genome-fragment	24.18	HMM-based (lower-bound)	0.0	1.0	
+TC45_NODE_53_length_265857_cov_35.780277_fragment_3	33862	No	NA	42	12	4	Medium-quality	Genome-fragment	51.6	HMM-based (lower-bound)	0.0	1.0	
+TC45_NODE_53_length_265857_cov_35.780277_fragment_1	13452	No	NA	16	4	0	Low-quality	Genome-fragment	26.87	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_56_length_117433_cov_19.032053_fragment_1	13548	No	NA	29	4	1	Low-quality	Genome-fragment	11.99	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_255_length_62041_cov_4.588300_fragment_1	11212	Yes	6247	10	2	1	Low-quality	Genome-fragment	7.72	HMM-based (lower-bound)	44.28	1.0	
+TC9_NODE_535_length_24118_cov_89.510650	24118	No	NA	27	3	3	Low-quality	Genome-fragment	47.16	HMM-based (lower-bound)	0.0	1.01	
+TC44_NODE_53_length_317135_cov_78.310213_fragment_1	101840	Yes	89273	127	7	10	Medium-quality	Genome-fragment	87.85	HMM-based (lower-bound)	12.34	1.0	
+TC21_NODE_401_length_20686_cov_2.589036	20686	No	NA	22	1	2	Low-quality	Genome-fragment	16.6	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_10419_fragment_1	15451	No	NA	27	12	0	Low-quality	Genome-fragment	22.87	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_15_length_337329_cov_6.110130_fragment_3	5972	No	NA	8	4	0	Low-quality	Genome-fragment	6.06	HMM-based (lower-bound)	0.0	1.0	
+TC42_NODE_125_length_110384_cov_1.626473_fragment_1	31325	No	NA	39	3	7	Low-quality	Genome-fragment	40.95	HMM-based (lower-bound)	0.0	1.0	
+TC14_NODE_114_length_86653_cov_1.586783_fragment_1	48525	No	NA	67	20	1	Medium-quality	Genome-fragment	68.79	HMM-based (lower-bound)	0.0	1.0	
+TC10_NODE_14_length_440668_cov_4.130989_fragment_6	45449	No	NA	57	19	1	Medium-quality	Genome-fragment	64.94	HMM-based (lower-bound)	0.0	1.0	
+TC24_NODE_96_length_220406_cov_78.866102_fragment_4	16666	No	NA	21	1	2	Low-quality	Genome-fragment	17.39	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_23993_fragment_4	45731	Yes	28797	62	9	6	Low-quality	Genome-fragment	27.09	HMM-based (lower-bound)	37.03	1.0	
+TC30_NODE_82_length_88032_cov_1.921347_fragment_1	13197	No	NA	17	13	0	Low-quality	Genome-fragment	18.19	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_1680_length_5086_cov_0.661625	5086	No	NA	9	5	0	Low-quality	Genome-fragment	7.02	HMM-based (lower-bound)	0.0	1.0	
+TC48_NODE_68_length_100714_cov_2.707149_fragment_1	44369	No	NA	52	25	1	Medium-quality	Genome-fragment	73.71	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_212_length_58282_cov_3.858052	58282	No	NA	81	17	12	Medium-quality	Genome-fragment	79.25	HMM-based (lower-bound)	0.0	1.0	
+TC14_NODE_344_length_31888_cov_1.384213	31888	No	NA	36	16	1	Low-quality	Genome-fragment	40.87	HMM-based (lower-bound)	0.0	1.0	
+TC28_NODE_49_length_112296_cov_1.963368_fragment_1	54057	Yes	41051	78	21	10	Medium-quality	Genome-fragment	59.34	HMM-based (lower-bound)	24.06	1.0	
+TC22_k99_6894_fragment_3	32045	No	NA	43	16	0	Low-quality	Genome-fragment	46.29	HMM-based (lower-bound)	0.0	1.0	
+TC26_NODE_206_length_30119_cov_172.442785	30119	Yes	18365	29	6	4	Low-quality	Genome-fragment	24.5	HMM-based (lower-bound)	39.03	1.0	low-confidence Provirus
+TC14_NODE_140_length_72295_cov_279.083721	72295	No	NA	95	7	2	Medium-quality	Genome-fragment	55.93	HMM-based (lower-bound)	0.0	1.0	
+TC18_NODE_81_length_51647_cov_12.017042_fragment_1	16843	No	NA	12	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC31_NODE_1093_length_7776_cov_1.142894	7776	No	NA	7	4	0	Low-quality	Genome-fragment	14.05	HMM-based (lower-bound)	0.0	1.0	
+TC10_NODE_2_length_1986184_cov_10.343854_fragment_18	15808	No	NA	21	9	0	Low-quality	Genome-fragment	22.08	HMM-based (lower-bound)	0.0	1.0	
+TC13_NODE_8_length_701935_cov_11.363343_fragment_5	35966	No	NA	53	23	0	Medium-quality	Genome-fragment	75.76	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_5_length_1129584_cov_3.755553_fragment_12	14402	No	NA	16	9	1	Low-quality	Genome-fragment	27.51	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_5_length_1129584_cov_3.755553_fragment_13	14937	No	NA	22	4	2	Low-quality	Genome-fragment	12.93	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_5_length_1129584_cov_3.755553_fragment_1	12289	No	NA	11	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC19_k99_5624	21497	No	NA	30	13	0	Low-quality	Genome-fragment	31.61	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_97_length_273785_cov_2.597951_fragment_1	46095	No	NA	55	15	0	Medium-quality	Genome-fragment	75.45	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_96_length_250252_cov_7.117757_fragment_3	49490	No	NA	47	0	14	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC33_NODE_3_length_1754025_cov_26.949056_fragment_4	81845	No	NA	103	31	5	High-quality	High-quality	93.37	HMM-based (lower-bound)	0.0	1.01	
+TC29_NODE_15_length_878037_cov_40.119936_fragment_1	18016	No	NA	22	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_15_length_878037_cov_40.119936_fragment_9	20945	Yes	16699	26	11	6	Low-quality	Genome-fragment	24.15	HMM-based (lower-bound)	20.27	1.0	
+TC20_NODE_20_length_532931_cov_6.959728_fragment_4	16547	No	NA	22	12	2	Low-quality	Genome-fragment	23.37	HMM-based (lower-bound)	0.0	1.0	
+TC20_NODE_20_length_532931_cov_6.959728_fragment_1	21176	No	NA	31	2	2	Low-quality	Genome-fragment	37.96	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_232_length_96751_cov_5.981216_fragment_1	10728	No	NA	18	1	2	High-quality	High-quality	100.0	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_14_length_418699_cov_4.585020_fragment_1	20885	Yes	15239	31	3	6	Low-quality	Genome-fragment	14.07	HMM-based (lower-bound)	27.03	1.0	
+TC9_NODE_65_length_284936_cov_15.489672_fragment_3	68091	Yes	57588	70	13	12	Medium-quality	Genome-fragment	80.11	HMM-based (lower-bound)	15.42	1.0	
+TC9_NODE_65_length_284936_cov_15.489672_fragment_4	15487	No	NA	18	2	0	Low-quality	Genome-fragment	25.48	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_91_length_241635_cov_26.107243_fragment_2	34535	Yes	29417	38	9	3	Medium-quality	Genome-fragment	53.47	HMM-based (lower-bound)	14.82	1.0	
+TC43_NODE_333_length_7002_cov_18.380945	7002	No	NA	8	1	0	Low-quality	Genome-fragment	6.57	HMM-based (lower-bound)	0.0	1.0	
+TC42_NODE_10_length_1381193_cov_62.080597_fragment_3	31409	No	NA	37	13	0	Medium-quality	Genome-fragment	66.31	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_661_length_6907_cov_1.424189	6907	No	NA	8	2	0	Low-quality	Genome-fragment	14.7	HMM-based (lower-bound)	0.0	1.0	
+TC18_NODE_364_length_6697_cov_1.244749	6697	No	NA	9	1	0	Low-quality	Genome-fragment	12.35	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_32_length_459097_cov_10.645759_fragment_1	63365	Yes	60979	82	27	3	Medium-quality	Genome-fragment	84.42	HMM-based (lower-bound)	3.77	1.0	
+TC2_NODE_409_length_42410_cov_149.154365	42410	No	NA	60	20	1	Medium-quality	Genome-fragment	86.33	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_324_length_28793_cov_2.027803_fragment_1	22150	No	NA	25	7	1	Low-quality	Genome-fragment	24.06	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_305_length_9483_cov_20.325246	9483	No	NA	13	6	0	Low-quality	Genome-fragment	12.19	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_36297	10637	No	NA	8	2	1	Low-quality	Genome-fragment	8.46	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_24_length_334762_cov_14.643899_fragment_6	9360	No	NA	8	1	3	Low-quality	Genome-fragment	9.29	HMM-based (lower-bound)	0.0	1.02	
+TC6_NODE_24_length_334762_cov_14.643899_fragment_1	38433	Yes	32480	45	11	6	Medium-quality	Genome-fragment	71.44	HMM-based (lower-bound)	15.49	1.0	
+TC6_NODE_24_length_334762_cov_14.643899_fragment_4	5611	No	NA	8	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC7_NODE_46_length_272986_cov_11.714376_fragment_1	86163	Yes	83502	90	25	6	High-quality	High-quality	91.69	HMM-based (lower-bound)	3.09	1.0	
+TC24_NODE_271_length_41493_cov_551.294783	41493	No	NA	48	5	1	Low-quality	Genome-fragment	42.25	HMM-based (lower-bound)	0.0	1.0	low-confidence DTR
+TC11_NODE_8_length_582147_cov_12.459319_fragment_8	45996	Yes	37241	70	14	6	Medium-quality	Genome-fragment	53.79	HMM-based (lower-bound)	19.03	1.0	
+TC9_NODE_2829_length_5184_cov_1.072573	5184	No	NA	10	5	0	Low-quality	Genome-fragment	10.9	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_166_length_108332_cov_2.956693_fragment_1	52592	Yes	42653	79	5	5	Low-quality	Genome-fragment	49.46	HMM-based (lower-bound)	18.9	1.0	
+TC10_NODE_12_length_490842_cov_6.506127_fragment_2	10963	Yes	7279	14	3	2	Low-quality	Genome-fragment	9.06	HMM-based (lower-bound)	33.6	1.0	
+TC10_NODE_12_length_490842_cov_6.506127_fragment_6	50558	Yes	34282	48	12	5	Medium-quality	Genome-fragment	51.39	HMM-based (lower-bound)	32.19	1.0	
+TC18_NODE_201_length_9948_cov_1.419815	9948	No	NA	16	9	0	Low-quality	Genome-fragment	6.62	HMM-based (lower-bound)	0.0	1.0	
+TC13_NODE_397_length_8254_cov_1.301587	8254	No	NA	17	3	0	Low-quality	Genome-fragment	15.71	HMM-based (lower-bound)	0.0	1.0	
+TC46_NODE_2_length_2911974_cov_72.510502_fragment_34	19205	No	NA	17	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC46_NODE_2_length_2911974_cov_72.510502_fragment_20	12980	No	NA	12	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC46_NODE_2_length_2911974_cov_72.510502_fragment_22	8389	No	NA	8	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC46_NODE_2_length_2911974_cov_72.510502_fragment_39	18865	No	NA	19	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC46_NODE_2_length_2911974_cov_72.510502_fragment_30	32873	Yes	27617	35	11	5	Low-quality	Genome-fragment	37.94	HMM-based (lower-bound)	15.99	1.0	
+TC48_NODE_226_length_19246_cov_207.275119	19246	No	NA	17	2	0	Low-quality	Genome-fragment	9.33	HMM-based (lower-bound)	0.0	1.13	low-confidence DTR
+TC31_NODE_1725_length_5681_cov_0.863162	5681	No	NA	6	2	0	Low-quality	Genome-fragment	8.35	HMM-based (lower-bound)	0.0	1.0	
+TC23_NODE_53_length_241168_cov_11.655822_fragment_2	62387	Yes	17413	72	9	27	Low-quality	Genome-fragment	24.57	HMM-based (lower-bound)	72.09	1.0	low-confidence Provirus
+TC21_NODE_888_length_8436_cov_4.591648	8436	No	NA	6	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC9_NODE_2012_length_7405_cov_69.775625	7405	No	NA	5	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.06	no viral genes detected
+TC12_NODE_5_length_1359165_cov_50.766149_fragment_17	38241	No	NA	42	12	4	Medium-quality	Genome-fragment	66.83	HMM-based (lower-bound)	0.0	1.01	
+TC12_NODE_5_length_1359165_cov_50.766149_fragment_20	40502	No	NA	55	0	7	Not-determined	Genome-fragment	NA	NA	0.0	1.05	no viral genes detected
+TC12_NODE_5_length_1359165_cov_50.766149_fragment_4	9286	No	NA	11	3	0	Low-quality	Genome-fragment	11.07	HMM-based (lower-bound)	0.0	1.0	
+TC12_NODE_5_length_1359165_cov_50.766149_fragment_6	24341	No	NA	29	4	2	Low-quality	Genome-fragment	37.38	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_37799_fragment_1	11880	No	NA	14	8	1	Low-quality	Genome-fragment	18.4	HMM-based (lower-bound)	0.0	1.0	
+TC5_NODE_256_length_14384_cov_1.094901	14384	No	NA	22	1	2	Low-quality	Genome-fragment	21.52	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_71_length_320446_cov_3.268208_fragment_1	43319	No	NA	54	23	0	Medium-quality	Genome-fragment	84.06	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_24_length_624035_cov_3.299982_fragment_8	45274	No	NA	56	21	0	Medium-quality	Genome-fragment	88.27	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_10_length_470221_cov_32.016814_fragment_2	42160	Yes	40650	56	23	3	Medium-quality	Genome-fragment	84.85	HMM-based (lower-bound)	3.58	1.0	
+TC14_NODE_146_length_68352_cov_1.942455_fragment_2	17409	No	NA	24	11	2	Low-quality	Genome-fragment	32.01	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_20104_fragment_11	59193	No	NA	96	3	14	Medium-quality	Genome-fragment	81.64	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_130_length_130617_cov_3.151935_fragment_1	104988	Yes	67942	122	19	12	Medium-quality	Genome-fragment	79.77	HMM-based (lower-bound)	35.29	1.0	low-confidence Provirus
+TC8_NODE_101_length_93400_cov_37.579921_fragment_1	23228	No	NA	33	4	0	Low-quality	Genome-fragment	33.65	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_1039_length_7492_cov_1.565513	7492	No	NA	9	4	0	Low-quality	Genome-fragment	12.24	HMM-based (lower-bound)	0.0	1.0	
+TC4_NODE_11_length_431609_cov_20.122188_fragment_1	13733	No	NA	11	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC4_NODE_11_length_431609_cov_20.122188_fragment_5	33855	Yes	13627	30	4	9	Low-quality	Genome-fragment	27.21	HMM-based (lower-bound)	59.75	1.0	
+TC25_k99_9947_fragment_2	21785	No	NA	25	6	0	Low-quality	Genome-fragment	34.7	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_163_length_145836_cov_18.374973_fragment_1	20502	No	NA	22	9	1	Low-quality	Genome-fragment	42.29	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_139_length_58879_cov_3.052168_fragment_1	7548	No	NA	10	3	0	Low-quality	Genome-fragment	9.93	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_4860_fragment_4	49220	Yes	39959	73	26	4	Medium-quality	Genome-fragment	84.68	HMM-based (lower-bound)	18.82	1.0	
+TC9_NODE_238_length_65984_cov_2.939445_fragment_1	30856	No	NA	22	1	10	Low-quality	Genome-fragment	28.5	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_538_length_19541_cov_149.898836	19541	No	NA	30	10	1	Low-quality	Genome-fragment	29.77	HMM-based (lower-bound)	0.0	1.0	
+TC24_NODE_1293_length_5013_cov_1.400941	5013	No	NA	8	5	0	Low-quality	Genome-fragment	8.31	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_114_length_142642_cov_2.681683_fragment_4	10411	No	NA	12	1	0	Low-quality	Genome-fragment	11.59	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_862_length_14042_cov_7.813079	14042	No	NA	19	1	2	Low-quality	Genome-fragment	21.01	HMM-based (lower-bound)	0.0	1.0	
+TC39_NODE_396_length_29396_cov_1.438792	29396	Yes	25485	48	9	6	Low-quality	Genome-fragment	38.27	HMM-based (lower-bound)	13.3	1.0	
+TC1_NODE_142_length_209220_cov_32.470360_fragment_1	19265	No	NA	25	10	0	Low-quality	Genome-fragment	27.09	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_142_length_209220_cov_32.470360_fragment_6	16285	No	NA	15	1	2	Low-quality	Genome-fragment	14.46	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_142_length_209220_cov_32.470360_fragment_5	6523	No	NA	9	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC18_NODE_143_length_13917_cov_1.424728	13917	No	NA	15	4	0	Low-quality	Genome-fragment	22.3	HMM-based (lower-bound)	0.0	1.0	
+TC20_NODE_13_length_845650_cov_3.550050_fragment_7	31330	No	NA	45	18	0	Low-quality	Genome-fragment	42.29	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_750_length_16849_cov_0.986963	16849	No	NA	23	13	0	Low-quality	Genome-fragment	23.83	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_711_length_18131_cov_3.099145	18131	No	NA	24	8	0	Low-quality	Genome-fragment	28.43	HMM-based (lower-bound)	0.0	1.0	
+TC20_NODE_139_length_12529_cov_1.085551	12529	No	NA	16	6	0	Low-quality	Genome-fragment	16.44	HMM-based (lower-bound)	0.0	1.0	
+TC5_NODE_5_length_1406465_cov_12.571004_fragment_6	12739	No	NA	13	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC5_NODE_5_length_1406465_cov_12.571004_fragment_19	47353	No	NA	72	29	0	Medium-quality	Genome-fragment	51.42	HMM-based (lower-bound)	0.0	1.0	
+TC5_NODE_5_length_1406465_cov_12.571004_fragment_11	34882	No	NA	42	18	1	Low-quality	Genome-fragment	48.45	HMM-based (lower-bound)	0.0	1.0	
+TC17_NODE_171_length_23030_cov_3.826224	23030	No	NA	24	1	1	Low-quality	Genome-fragment	32.79	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_5090_fragment_10	6213	No	NA	9	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC42_NODE_7_length_1598515_cov_3.556382_fragment_7	12202	No	NA	11	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC25_k99_9448_fragment_1	41709	Yes	35903	57	24	3	Medium-quality	Genome-fragment	72.65	HMM-based (lower-bound)	13.92	1.0	
+TC25_k99_1821	9859	No	NA	17	6	1	Low-quality	Genome-fragment	13.4	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_10_length_516360_cov_3.910192_fragment_2	88745	Yes	87235	122	39	3	High-quality	High-quality	98.52	HMM-based (lower-bound)	1.7	1.0	
+TC37_NODE_6_length_771741_cov_38.645067_fragment_9	10792	No	NA	15	4	0	Low-quality	Genome-fragment	18.38	HMM-based (lower-bound)	0.0	1.0	
+TC37_NODE_6_length_771741_cov_38.645067_fragment_4	9747	No	NA	12	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC37_NODE_6_length_771741_cov_38.645067_fragment_1	29453	No	NA	16	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC19_k99_33276_fragment_2	13914	No	NA	15	12	0	Low-quality	Genome-fragment	25.26	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_33276_fragment_3	17408	No	NA	20	3	2	Low-quality	Genome-fragment	28.13	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_681_length_6587_cov_6.445666	6587	Yes	1740	9	1	2	Low-quality	Genome-fragment	0.94	HMM-based (lower-bound)	73.58	1.0	
+TC19_k99_14676	7974	No	NA	11	6	0	Low-quality	Genome-fragment	12.4	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_134_length_224039_cov_57.671326_fragment_1	118312	Yes	91832	135	21	14	Complete	High-quality	100.0	Provirus (high-confidence)	22.38	1.0	
+TC6_NODE_28_length_291559_cov_501.229687_fragment_1	14000	No	NA	20	1	3	Low-quality	Genome-fragment	16.1	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_24071	53693	Yes	48429	69	13	3	Medium-quality	Genome-fragment	75.18	HMM-based (lower-bound)	9.8	1.0	
+TC2_NODE_65_length_339340_cov_62.307927_fragment_2	45353	No	NA	56	14	1	Medium-quality	Genome-fragment	68.13	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_87_length_201352_cov_4.769517_fragment_1	72369	No	NA	98	21	8	High-quality	High-quality	93.83	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_5_length_742238_cov_32.052233_fragment_3	21592	Yes	10271	27	2	9	Low-quality	Genome-fragment	11.7	HMM-based (lower-bound)	52.43	1.0	
+TC38_NODE_587_length_6311_cov_1.037678	6311	No	NA	8	6	1	Low-quality	Genome-fragment	11.55	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_67_length_161723_cov_7.924317_fragment_1	11535	No	NA	12	5	0	Low-quality	Genome-fragment	23.33	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_28_length_626913_cov_6.440319_fragment_4	56063	Yes	45758	76	15	6	Medium-quality	Genome-fragment	70.77	HMM-based (lower-bound)	18.38	1.0	low-confidence Provirus
+TC29_NODE_28_length_626913_cov_6.440319_fragment_3	5289	No	NA	8	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_71_length_348880_cov_7.195720_fragment_2	36331	No	NA	52	10	1	Low-quality	Genome-fragment	49.3	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_10_length_786305_cov_10.390390_fragment_2	24140	No	NA	24	4	2	Low-quality	Genome-fragment	32.12	HMM-based (lower-bound)	0.0	1.0	
+TC6_NODE_10_length_786305_cov_10.390390_fragment_1	15747	No	NA	12	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC17_NODE_167_length_23144_cov_246.231307	23144	No	NA	25	1	2	Low-quality	Genome-fragment	11.22	HMM-based (lower-bound)	0.0	1.0	low-confidence ITR
+TC19_k99_15742	14360	No	NA	16	1	1	Low-quality	Genome-fragment	21.48	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_59_length_475188_cov_8.064007_fragment_6	53404	Yes	40847	66	12	3	Medium-quality	Genome-fragment	70.93	HMM-based (lower-bound)	23.51	1.0	
+TC1_NODE_59_length_475188_cov_8.064007_fragment_2	31853	No	NA	21	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC29_NODE_76_length_342196_cov_18.142620_fragment_2	41709	Yes	35903	57	24	3	Medium-quality	Genome-fragment	72.65	HMM-based (lower-bound)	13.92	1.0	
+TC19_k99_35266_fragment_10	28054	No	NA	24	0	7	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC19_k99_35266_fragment_2	20989	No	NA	18	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC39_NODE_3_length_960438_cov_15.498144_fragment_14	37543	No	NA	58	18	0	Medium-quality	Genome-fragment	52.05	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_452_length_34432_cov_18.148200_fragment_1	20131	No	NA	33	15	0	Low-quality	Genome-fragment	36.83	HMM-based (lower-bound)	0.0	1.0	
+TC23_NODE_11_length_907578_cov_93.829391_fragment_3	42678	Yes	36469	68	19	5	Medium-quality	Genome-fragment	70.56	HMM-based (lower-bound)	14.55	1.0	
+TC23_NODE_11_length_907578_cov_93.829391_fragment_2	6248	No	NA	12	1	1	Low-quality	Genome-fragment	3.39	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_99_length_39050_cov_15.381779_fragment_1	9703	No	NA	13	6	0	Low-quality	Genome-fragment	10.05	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_5_length_1823148_cov_2.889292_fragment_5	46529	Yes	39082	53	6	2	Medium-quality	Genome-fragment	71.92	HMM-based (lower-bound)	16.01	1.0	
+TC22_k99_10235_fragment_1	10381	No	NA	12	1	0	Low-quality	Genome-fragment	11.56	HMM-based (lower-bound)	0.0	1.0	
+TC42_NODE_307_length_37584_cov_1.163387	37584	No	NA	68	15	1	Medium-quality	Genome-fragment	66.89	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_1018_length_11076_cov_55.996347	11076	No	NA	11	1	0	Low-quality	Genome-fragment	7.45	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_50_length_396606_cov_1.837843_fragment_5	44653	No	NA	74	16	0	Medium-quality	Genome-fragment	55.93	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_50_length_396606_cov_1.837843_fragment_6	30164	No	NA	52	7	1	Low-quality	Genome-fragment	24.14	HMM-based (lower-bound)	0.0	1.0	
+TC38_NODE_54_length_102780_cov_15.580051_fragment_1	45380	Yes	42336	55	25	3	Medium-quality	Genome-fragment	84.39	HMM-based (lower-bound)	6.71	1.0	
+TC44_NODE_458_length_15300_cov_1.272589	15300	No	NA	22	10	0	Low-quality	Genome-fragment	23.91	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_191_length_58548_cov_1.815255	58548	No	NA	63	22	1	Medium-quality	Genome-fragment	81.64	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_6_length_676774_cov_6.395213_fragment_6	65021	Yes	57392	91	38	5	High-quality	High-quality	90.83	HMM-based (lower-bound)	11.73	1.0	
+TC39_NODE_52_length_196619_cov_8.159034_fragment_1	46052	Yes	39504	60	16	2	Medium-quality	Genome-fragment	61.32	HMM-based (lower-bound)	14.22	1.0	
+TC31_NODE_1903_length_5331_cov_1.014604	5331	No	NA	7	1	0	Low-quality	Genome-fragment	4.92	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_147_length_121833_cov_2.735863_fragment_1	26450	Yes	21926	27	9	4	Low-quality	Genome-fragment	40.58	HMM-based (lower-bound)	17.1	1.0	
+TC42_NODE_90_length_156180_cov_1.716622_fragment_1	13431	No	NA	18	9	0	Low-quality	Genome-fragment	23.94	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_9_length_1201113_cov_15.041872_fragment_19	10421	No	NA	16	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC9_NODE_9_length_1201113_cov_15.041872_fragment_24	24778	No	NA	32	1	5	Low-quality	Genome-fragment	19.46	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_9_length_1201113_cov_15.041872_fragment_1	23535	No	NA	15	1	1	Low-quality	Genome-fragment	32.94	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_450_length_17582_cov_5.828874	17582	No	NA	23	7	0	Low-quality	Genome-fragment	23.96	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_1090_length_7212_cov_1.272971	7212	No	NA	9	5	0	Low-quality	Genome-fragment	15.17	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_1302_length_7207_cov_1.116384	7207	No	NA	8	4	0	Low-quality	Genome-fragment	15.18	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_7844_fragment_4	18752	Yes	8586	20	3	5	Low-quality	Genome-fragment	11.56	HMM-based (lower-bound)	54.21	1.0	
+TC32_NODE_441_length_9483_cov_7.642262	9483	No	NA	13	6	0	Low-quality	Genome-fragment	12.19	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_42_length_439594_cov_6.338911_fragment_1	35871	Yes	27517	34	7	3	Medium-quality	Genome-fragment	53.49	HMM-based (lower-bound)	23.29	1.0	
+TC29_NODE_42_length_439594_cov_6.338911_fragment_5	38351	No	NA	58	0	16	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC1_NODE_341_length_40417_cov_176.687640	40417	No	NA	52	23	1	Medium-quality	Genome-fragment	84.95	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_112_length_196170_cov_3.920839_fragment_2	51878	Yes	36217	58	18	5	Medium-quality	Genome-fragment	58.74	HMM-based (lower-bound)	30.19	1.0	low-confidence Provirus
+TC2_NODE_33_length_512050_cov_27.166554_fragment_1	24831	No	NA	27	7	1	Low-quality	Genome-fragment	39.94	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_33_length_512050_cov_27.166554_fragment_3	32048	No	NA	26	1	10	Low-quality	Genome-fragment	17.38	HMM-based (lower-bound)	0.0	1.0	
+TC20_NODE_8_length_1091970_cov_6.985938_fragment_4	45654	No	NA	74	15	3	Medium-quality	Genome-fragment	68.56	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_127_length_104960_cov_2.160732_fragment_1	63350	Yes	44247	82	27	10	Medium-quality	Genome-fragment	62.15	HMM-based (lower-bound)	30.15	1.0	
+TC19_k99_19647	5810	No	NA	6	3	0	Low-quality	Genome-fragment	11.49	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_5787	8631	No	NA	14	5	0	Low-quality	Genome-fragment	12.34	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_461_length_15802_cov_2.432217	15802	No	NA	16	9	0	Low-quality	Genome-fragment	27.09	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_117_length_135596_cov_13.031535_fragment_1	38663	No	NA	56	19	1	Medium-quality	Genome-fragment	69.87	HMM-based (lower-bound)	0.0	1.01	
+TC16_NODE_244_length_7509_cov_65.745462	7509	No	NA	8	1	1	Low-quality	Genome-fragment	9.42	HMM-based (lower-bound)	0.0	1.0	
+TC18_NODE_91_length_37957_cov_1.264684	37957	No	NA	63	25	1	Low-quality	Genome-fragment	48.2	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_941	18865	No	NA	35	6	0	Low-quality	Genome-fragment	39.69	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_86_length_282059_cov_25.867876_fragment_1	15984	Yes	8543	23	2	3	Medium-quality	Genome-fragment	83.23	HMM-based (lower-bound)	46.55	1.0	
+TC32_NODE_86_length_282059_cov_25.867876_fragment_2	17690	No	NA	22	2	4	Low-quality	Genome-fragment	24.86	HMM-based (lower-bound)	0.0	1.0	
+TC33_NODE_27_length_378717_cov_2.184374_fragment_1	34161	No	NA	43	9	4	Low-quality	Genome-fragment	48.72	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_4487_fragment_1	59093	No	NA	86	27	2	Medium-quality	Genome-fragment	86.47	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_28466_fragment_9	21504	No	NA	26	9	2	Low-quality	Genome-fragment	28.12	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_28466_fragment_2	39654	No	NA	52	19	0	Medium-quality	Genome-fragment	54.85	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_22_length_662371_cov_71.591452_fragment_7	40886	No	NA	55	19	0	Medium-quality	Genome-fragment	74.86	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_91_length_137763_cov_3.812164_fragment_2	52178	No	NA	52	17	2	Medium-quality	Genome-fragment	74.87	HMM-based (lower-bound)	0.0	1.0	
+TC36_NODE_337_length_20396_cov_2.484385	20396	No	NA	32	19	0	Low-quality	Genome-fragment	45.51	HMM-based (lower-bound)	0.0	1.0	
+TC40_NODE_13_length_266733_cov_123.783174_fragment_1	11778	No	NA	10	5	0	Low-quality	Genome-fragment	23.43	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_9628	21589	No	NA	24	14	0	Low-quality	Genome-fragment	37.36	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_977_length_9483_cov_18.388521	9483	No	NA	13	6	0	Low-quality	Genome-fragment	12.19	HMM-based (lower-bound)	0.0	1.0	
+TC47_NODE_170_length_30331_cov_5.068269	30331	No	NA	50	13	0	Low-quality	Genome-fragment	46.97	HMM-based (lower-bound)	0.0	1.0	
+TC18_NODE_111_length_23602_cov_12.434164	23602	No	NA	35	9	1	Low-quality	Genome-fragment	37.07	HMM-based (lower-bound)	0.0	1.0	
+TC23_NODE_43_length_306671_cov_19.683448_fragment_1	15224	No	NA	15	10	0	Low-quality	Genome-fragment	25.2	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_16_length_550297_cov_19.799362_fragment_2	41419	No	NA	58	18	1	Medium-quality	Genome-fragment	60.27	HMM-based (lower-bound)	0.0	1.0	
+TC20_NODE_35_length_234509_cov_32.817507_fragment_3	42408	No	NA	59	13	0	Medium-quality	Genome-fragment	57.76	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_3_length_2613225_cov_18.249420_fragment_14	52429	Yes	46273	76	19	4	Medium-quality	Genome-fragment	56.63	HMM-based (lower-bound)	11.74	1.0	
+TC44_NODE_3_length_2613225_cov_18.249420_fragment_7	15889	No	NA	12	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC24_NODE_10_length_881981_cov_5.334318_fragment_3	51570	No	NA	67	6	5	Medium-quality	Genome-fragment	71.52	HMM-based (lower-bound)	0.0	1.01	
+TC23_NODE_20_length_537434_cov_20.219629_fragment_2	12005	No	NA	17	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.02	no viral genes detected
+TC16_NODE_49_length_134977_cov_80.203278_fragment_1	24566	No	NA	38	17	0	Medium-quality	Genome-fragment	51.88	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_20484	14212	Yes	10132	20	6	3	Low-quality	Genome-fragment	7.81	HMM-based (lower-bound)	28.71	1.0	
+TC6_NODE_154_length_25958_cov_34.872672	25958	No	NA	28	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.06	no viral genes detected
+TC22_k99_18216_fragment_1	9698	Yes	4646	10	5	3	Low-quality	Genome-fragment	5.33	HMM-based (lower-bound)	52.09	1.0	
+TC35_NODE_43_length_82804_cov_135.385911_fragment_1	22792	No	NA	24	5	1	Low-quality	Genome-fragment	22.15	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_14_length_415217_cov_19.321309_fragment_3	40042	No	NA	53	11	0	Medium-quality	Genome-fragment	69.33	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_11_length_806169_cov_2.790758_fragment_4	37037	No	NA	51	11	1	Medium-quality	Genome-fragment	53.99	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_7_length_1394600_cov_14.790398_fragment_15	16659	No	NA	8	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC9_NODE_7_length_1394600_cov_14.790398_fragment_31	6915	No	NA	9	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC9_NODE_7_length_1394600_cov_14.790398_fragment_1	14341	No	NA	11	2	1	Low-quality	Genome-fragment	17.86	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_7_length_1394600_cov_14.790398_fragment_14	48976	Yes	35450	46	5	8	Medium-quality	Genome-fragment	54.42	HMM-based (lower-bound)	27.62	1.0	low-confidence Provirus
+TC29_NODE_236_length_94821_cov_12.473346_fragment_1	46617	Yes	44669	71	21	2	Medium-quality	Genome-fragment	59.0	HMM-based (lower-bound)	4.18	1.0	
+TC5_NODE_221_length_20238_cov_1.942121	20238	Yes	15298	25	5	2	Low-quality	Genome-fragment	20.0	HMM-based (lower-bound)	24.41	1.0	
+TC14_NODE_461_length_22082_cov_1.191710	22082	No	NA	29	13	0	Low-quality	Genome-fragment	32.94	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_1286_length_6344_cov_3.375744	6344	No	NA	6	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC32_NODE_218_length_71311_cov_12.605136_fragment_1	9677	No	NA	9	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC32_NODE_218_length_71311_cov_12.605136_fragment_3	12609	No	NA	12	2	1	Low-quality	Genome-fragment	9.6	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_7_length_485387_cov_18.967422_fragment_1	15532	No	NA	28	4	0	Low-quality	Genome-fragment	19.54	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_10547_fragment_1	50881	Yes	45674	70	15	3	Medium-quality	Genome-fragment	70.64	HMM-based (lower-bound)	10.23	1.0	
+TC25_k99_8030	23245	No	NA	29	13	0	Low-quality	Genome-fragment	29.89	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_18_length_396771_cov_6.479846_fragment_5	43910	No	NA	56	17	2	Medium-quality	Genome-fragment	56.73	HMM-based (lower-bound)	0.0	1.0	
+TC28_NODE_390_length_9361_cov_0.890838	9361	No	NA	14	10	0	Low-quality	Genome-fragment	15.64	HMM-based (lower-bound)	0.0	1.0	
+TC48_NODE_10_length_688333_cov_2.601362_fragment_10	14414	Yes	5782	19	4	3	Low-quality	Genome-fragment	5.01	HMM-based (lower-bound)	59.89	1.0	
+TC29_NODE_1152_length_7001_cov_17.752546	7001	No	NA	8	1	0	Low-quality	Genome-fragment	6.56	HMM-based (lower-bound)	0.0	1.0	low-confidence ITR
+TC8_NODE_37_length_248517_cov_8.354849_fragment_1	57179	Yes	38922	77	18	12	Medium-quality	Genome-fragment	66.72	HMM-based (lower-bound)	31.93	1.0	
+TC6_NODE_106_length_77444_cov_186.352975	77444	Yes	72776	76	7	6	Complete	High-quality	100.0	DTR (high-confidence)	6.03	1.02	
+TC2_NODE_207_length_109300_cov_1.932841_fragment_1	12480	No	NA	21	1	3	Low-quality	Genome-fragment	10.17	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_207_length_109300_cov_1.932841_fragment_2	28684	No	NA	34	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC42_NODE_33_length_406797_cov_2.329609_fragment_1	12197	No	NA	16	11	0	Low-quality	Genome-fragment	24.12	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_101_length_52188_cov_20.015117_fragment_1	31644	Yes	17302	33	12	7	Low-quality	Genome-fragment	22.94	HMM-based (lower-bound)	45.32	1.0	
+TC25_k99_10258_fragment_29	20867	No	NA	23	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC25_k99_10258_fragment_22	44581	No	NA	74	16	0	Medium-quality	Genome-fragment	55.84	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_10258_fragment_21	30164	No	NA	52	7	1	Low-quality	Genome-fragment	24.14	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_10258_fragment_1	13463	No	NA	14	1	1	Low-quality	Genome-fragment	6.6	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_229_length_45088_cov_6.685527	45088	Yes	41992	58	19	2	Medium-quality	Genome-fragment	55.88	HMM-based (lower-bound)	6.87	1.0	
+TC32_NODE_43_length_498111_cov_10.817655_fragment_3	52440	Yes	44824	73	17	3	Medium-quality	Genome-fragment	65.93	HMM-based (lower-bound)	14.52	1.0	
+TC44_NODE_12_length_802540_cov_6.386569_fragment_4	21897	Yes	14423	21	8	4	Low-quality	Genome-fragment	27.87	HMM-based (lower-bound)	34.13	1.0	
+TC44_NODE_12_length_802540_cov_6.386569_fragment_1	8303	No	NA	8	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC44_NODE_12_length_802540_cov_6.386569_fragment_6	17480	No	NA	16	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC5_NODE_271_length_12972_cov_2.150564	12972	No	NA	19	4	1	Low-quality	Genome-fragment	15.94	HMM-based (lower-bound)	0.0	1.0	
+TC24_NODE_1253_length_5145_cov_1.083499	5145	No	NA	6	3	0	Low-quality	Genome-fragment	8.87	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_317_length_47598_cov_3.657791	47598	Yes	41097	62	24	4	High-quality	High-quality	90.86	HMM-based (lower-bound)	13.66	1.0	
+TC22_k99_3417	12661	No	NA	15	3	0	Low-quality	Genome-fragment	20.03	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_2613_fragment_1	44707	No	NA	66	19	2	Medium-quality	Genome-fragment	57.09	HMM-based (lower-bound)	0.0	1.0	
+TC41_NODE_7_length_338930_cov_6.437213_fragment_2	24380	Yes	18568	30	10	5	Low-quality	Genome-fragment	25.0	HMM-based (lower-bound)	23.84	1.0	
+TC36_NODE_1406_length_6212_cov_1.443878	6212	No	NA	10	4	0	Low-quality	Genome-fragment	9.08	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_202_length_53415_cov_6.288489	53415	No	NA	74	22	1	Medium-quality	Genome-fragment	86.35	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_808_length_9471_cov_0.913527	9471	No	NA	12	4	1	Low-quality	Genome-fragment	9.61	HMM-based (lower-bound)	0.0	1.0	
+TC30_NODE_47_length_154128_cov_1.918189_fragment_2	43491	Yes	39327	47	14	9	Medium-quality	Genome-fragment	69.18	HMM-based (lower-bound)	9.57	1.0	
+TC30_NODE_47_length_154128_cov_1.918189_fragment_1	20597	No	NA	31	3	4	Low-quality	Genome-fragment	28.42	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_6478	7120	Yes	5341	7	4	1	Low-quality	Genome-fragment	5.42	HMM-based (lower-bound)	24.99	1.0	
+TC5_NODE_281_length_11537_cov_1.264505	11537	No	NA	15	3	0	Low-quality	Genome-fragment	12.22	HMM-based (lower-bound)	0.0	1.01	low-confidence DTR
+TC22_k99_29245_fragment_5	45345	Yes	41404	60	13	4	Medium-quality	Genome-fragment	81.74	HMM-based (lower-bound)	8.69	1.0	
+TC21_NODE_330_length_28926_cov_1.584673	28926	No	NA	30	7	0	Medium-quality	Genome-fragment	54.82	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_241_length_60815_cov_847.333756_fragment_2	10514	No	NA	13	3	1	Low-quality	Genome-fragment	17.72	HMM-based (lower-bound)	0.0	1.0	
+TC7_NODE_241_length_60815_cov_847.333756_fragment_1	34662	Yes	30064	46	3	5	Low-quality	Genome-fragment	41.12	HMM-based (lower-bound)	13.27	1.0	
+TC31_NODE_17_length_607946_cov_7.763028_fragment_6	17248	No	NA	18	9	1	Low-quality	Genome-fragment	33.07	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_10_length_508707_cov_5.912515_fragment_2	40150	No	NA	54	16	0	Medium-quality	Genome-fragment	54.22	HMM-based (lower-bound)	0.0	1.0	
+TC24_NODE_86_length_236796_cov_28.047412_fragment_1	51856	Yes	46674	79	24	7	Medium-quality	Genome-fragment	84.35	HMM-based (lower-bound)	9.99	1.0	
+TC29_NODE_243_length_91270_cov_12.433198_fragment_1	20546	No	NA	26	11	0	Low-quality	Genome-fragment	40.7	HMM-based (lower-bound)	0.0	1.0	
+TC17_NODE_52_length_68826_cov_3.980145_fragment_2	27813	Yes	15865	35	3	6	Low-quality	Genome-fragment	25.79	HMM-based (lower-bound)	42.96	1.0	low-confidence Provirus
+TC21_NODE_637_length_11426_cov_5.489955	11426	No	NA	17	7	0	Low-quality	Genome-fragment	18.7	HMM-based (lower-bound)	0.0	1.0	
+TC4_NODE_31_length_117274_cov_19.763639_fragment_1	54283	Yes	29290	55	11	7	Low-quality	Genome-fragment	41.33	HMM-based (lower-bound)	46.04	1.0	
+TC16_NODE_28_length_243043_cov_80.738576_fragment_3	41202	No	NA	55	15	2	Low-quality	Genome-fragment	49.17	HMM-based (lower-bound)	0.0	1.0	
+TC23_NODE_18_length_579483_cov_3.554424_fragment_3	68738	Yes	56212	94	28	9	Medium-quality	Genome-fragment	65.28	HMM-based (lower-bound)	18.22	1.0	low-confidence Provirus
+TC22_k99_15394_fragment_1	26450	Yes	21926	27	9	4	Low-quality	Genome-fragment	40.58	HMM-based (lower-bound)	17.1	1.0	
+TC31_NODE_1062_length_7892_cov_1.368448	7892	Yes	4216	5	2	1	Low-quality	Genome-fragment	4.91	HMM-based (lower-bound)	46.58	1.0	
+TC30_NODE_164_length_38945_cov_1.826163	38945	Yes	31131	48	12	4	Low-quality	Genome-fragment	37.31	HMM-based (lower-bound)	20.06	1.0	
+TC7_NODE_535_length_11407_cov_1.278103	11407	No	NA	23	6	1	Low-quality	Genome-fragment	16.69	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_61_length_299985_cov_3.877866_fragment_4	25906	No	NA	30	1	6	Low-quality	Genome-fragment	2.34	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_61_length_299985_cov_3.877866_fragment_6	37195	No	NA	50	5	2	Medium-quality	Genome-fragment	50.81	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_43_length_303151_cov_2.146269_fragment_1	18953	Yes	10346	19	8	4	Low-quality	Genome-fragment	20.18	HMM-based (lower-bound)	45.41	1.0	
+TC21_NODE_364_length_25009_cov_5.522225	25009	Yes	23611	32	13	2	Low-quality	Genome-fragment	33.78	HMM-based (lower-bound)	5.59	1.0	
+TC42_NODE_19_length_673784_cov_3.620415_fragment_4	14050	No	NA	17	7	1	Low-quality	Genome-fragment	27.96	HMM-based (lower-bound)	0.0	1.0	
+TC1_NODE_107_length_274714_cov_54.187747_fragment_4	35831	No	NA	19	1	3	Low-quality	Genome-fragment	31.87	HMM-based (lower-bound)	0.0	1.01	
+TC46_NODE_1210_length_5326_cov_40.236392	5326	No	NA	9	1	0	Low-quality	Genome-fragment	6.13	HMM-based (lower-bound)	0.0	1.0	
+TC5_NODE_160_length_37759_cov_170.937739	37759	No	NA	56	4	1	Medium-quality	Genome-fragment	82.88	HMM-based (lower-bound)	0.0	1.01	
+TC25_k99_4823_fragment_1	12468	No	NA	13	6	0	Low-quality	Genome-fragment	24.62	HMM-based (lower-bound)	0.0	1.0	
+TC17_NODE_131_length_29950_cov_4.057942_fragment_1	14752	Yes	10813	16	5	3	Low-quality	Genome-fragment	21.87	HMM-based (lower-bound)	26.7	1.0	
+TC21_NODE_203_length_53367_cov_5.498385	53367	No	NA	81	26	0	Medium-quality	Genome-fragment	68.42	HMM-based (lower-bound)	0.0	1.0	
+TC42_NODE_39_length_343696_cov_85.432501_fragment_1	199914	No	NA	278	29	8	High-quality	High-quality	97.56	HMM-based (lower-bound)	0.0	1.96	high kmer_freq may indicate large duplication; low-confidence DTR
+TC15_NODE_1688_length_5560_cov_0.806737	5560	No	NA	5	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC44_NODE_1601_length_6144_cov_1.427289	6144	No	NA	7	4	0	Low-quality	Genome-fragment	11.44	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_423_length_39422_cov_64.784425	39422	Yes	29878	63	14	3	Medium-quality	Genome-fragment	63.41	HMM-based (lower-bound)	24.21	1.0	
+TC5_NODE_185_length_29760_cov_1.347720	29760	No	NA	36	20	0	Medium-quality	Genome-fragment	53.7	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_6391_fragment_1	43514	Yes	31129	44	22	7	Low-quality	Genome-fragment	43.05	HMM-based (lower-bound)	28.46	1.0	
+TC25_k99_4215_fragment_4	14974	No	NA	17	10	1	Low-quality	Genome-fragment	28.29	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_4215_fragment_3	14937	No	NA	22	4	2	Low-quality	Genome-fragment	12.93	HMM-based (lower-bound)	0.0	1.0	
+TC12_NODE_174_length_50166_cov_41.372330	50166	No	NA	70	10	3	Medium-quality	Genome-fragment	85.6	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_1955_fragment_1	28774	No	NA	53	14	1	Low-quality	Genome-fragment	36.87	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_20_length_389567_cov_2.337559_fragment_2	78635	Yes	41704	66	2	12	Low-quality	Genome-fragment	19.32	HMM-based (lower-bound)	46.97	1.0	
+TC11_NODE_20_length_389567_cov_2.337559_fragment_1	119091	No	NA	178	6	10	Medium-quality	Genome-fragment	65.06	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_20_length_389567_cov_2.337559_fragment_3	115353	No	NA	133	2	15	Medium-quality	Genome-fragment	69.89	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_20_length_389567_cov_2.337559_fragment_4	41970	No	NA	67	2	7	Low-quality	Genome-fragment	31.2	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_6_length_916318_cov_19.805566_fragment_13	48021	Yes	22392	54	2	10	Low-quality	Genome-fragment	12.82	HMM-based (lower-bound)	53.37	1.0	low-confidence Provirus
+TC43_NODE_6_length_916318_cov_19.805566_fragment_8	21558	No	NA	19	1	1	Low-quality	Genome-fragment	14.9	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_6_length_916318_cov_19.805566_fragment_9	28026	No	NA	24	0	7	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC45_NODE_40_length_342080_cov_15.171442_fragment_3	43303	No	NA	61	17	3	Medium-quality	Genome-fragment	56.59	HMM-based (lower-bound)	0.0	1.0	
+TC22_k99_3039	34411	No	NA	56	21	0	Medium-quality	Genome-fragment	74.17	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_118_length_192110_cov_11.285197_fragment_2	38768	No	NA	48	12	2	Medium-quality	Genome-fragment	52.66	HMM-based (lower-bound)	0.0	1.0	
+TC48_NODE_279_length_11086_cov_185.258418	11086	No	NA	16	1	1	Low-quality	Genome-fragment	5.38	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_17_length_794707_cov_3.780953_fragment_2	45991	Yes	35845	84	12	10	Medium-quality	Genome-fragment	53.14	HMM-based (lower-bound)	22.06	1.0	
+TC32_NODE_29_length_671025_cov_11.157456_fragment_2	9253	No	NA	15	4	0	Low-quality	Genome-fragment	9.94	HMM-based (lower-bound)	0.0	1.0	
+TC32_NODE_29_length_671025_cov_11.157456_fragment_6	37876	No	NA	30	0	9	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+TC44_NODE_27_length_518998_cov_4.360797_fragment_5	44518	No	NA	61	18	1	Medium-quality	Genome-fragment	86.49	HMM-based (lower-bound)	0.0	1.0	
+TC44_NODE_27_length_518998_cov_4.360797_fragment_6	14595	No	NA	18	10	0	Low-quality	Genome-fragment	18.42	HMM-based (lower-bound)	0.0	1.0	
+TC25_k99_4061_fragment_4	22012	Yes	15421	32	6	7	Low-quality	Genome-fragment	17.19	HMM-based (lower-bound)	29.94	1.0	
+TC24_NODE_44_length_384373_cov_2.324318_fragment_6	37259	No	NA	49	14	0	Medium-quality	Genome-fragment	52.44	HMM-based (lower-bound)	0.0	1.0	
+TC24_NODE_44_length_384373_cov_2.324318_fragment_2	63998	Yes	59837	110	20	4	Medium-quality	Genome-fragment	79.64	HMM-based (lower-bound)	6.5	1.0	
+TC41_NODE_74_length_89040_cov_22.550392_fragment_1	9821	No	NA	15	2	0	Low-quality	Genome-fragment	11.18	HMM-based (lower-bound)	0.0	1.0	
+TC20_NODE_27_length_369811_cov_122.340553_fragment_7	27606	Yes	15217	36	10	10	Low-quality	Genome-fragment	20.84	HMM-based (lower-bound)	44.88	1.0	low-confidence Provirus
+TC46_NODE_238_length_36911_cov_1.610102	36911	No	NA	50	14	1	Medium-quality	Genome-fragment	54.79	HMM-based (lower-bound)	0.0	1.0	
+TC29_NODE_27_length_629482_cov_7.261345_fragment_1	62592	No	NA	77	31	0	Medium-quality	Genome-fragment	84.52	HMM-based (lower-bound)	0.0	1.0	
+TC15_NODE_71_length_118908_cov_5.910238_fragment_3	8894	No	NA	12	4	0	Low-quality	Genome-fragment	8.41	HMM-based (lower-bound)	0.0	1.0	
+TC11_NODE_638_length_23721_cov_1.229126	23721	No	NA	29	9	0	Low-quality	Genome-fragment	33.13	HMM-based (lower-bound)	0.0	1.0	
+TC21_NODE_701_length_10313_cov_0.851168	10313	No	NA	16	3	0	Low-quality	Genome-fragment	15.56	HMM-based (lower-bound)	0.0	1.0	
+TC10_NODE_50_length_136832_cov_6.345503_fragment_1	24513	No	NA	29	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC22_k99_28617_fragment_1	23091	Yes	15092	28	9	8	Low-quality	Genome-fragment	21.09	HMM-based (lower-bound)	34.64	1.0	
+TC11_NODE_769_length_18873_cov_2.796010	18873	No	NA	35	6	0	Low-quality	Genome-fragment	39.71	HMM-based (lower-bound)	0.0	1.0	
+TC19_k99_20070	6993	No	NA	7	4	0	Low-quality	Genome-fragment	10.63	HMM-based (lower-bound)	0.0	1.0	
+TC13_NODE_4_length_946058_cov_11.361694_fragment_9	16814	No	NA	23	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC13_NODE_4_length_946058_cov_11.361694_fragment_3	9717	No	NA	11	1	1	Low-quality	Genome-fragment	12.46	HMM-based (lower-bound)	0.0	1.0	
+TC13_NODE_4_length_946058_cov_11.361694_fragment_1	11984	No	NA	11	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC25_k99_5031	6236	No	NA	6	5	0	Low-quality	Genome-fragment	5.47	HMM-based (lower-bound)	0.0	1.0	
+TC47_NODE_36_length_243073_cov_5.582804_fragment_1	39009	No	NA	52	15	2	Low-quality	Genome-fragment	46.55	HMM-based (lower-bound)	0.0	1.0	
+TC50_NODE_6_length_476458_cov_3.813462_fragment_4	11984	No	NA	11	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+TC22_k99_14870_fragment_3	14110	No	NA	17	10	0	Low-quality	Genome-fragment	25.97	HMM-based (lower-bound)	0.0	1.0	
+TC43_NODE_30_length_383417_cov_19.387498_fragment_7	30799	Yes	26278	32	7	3	Low-quality	Genome-fragment	22.97	HMM-based (lower-bound)	14.68	1.0	
+TC43_NODE_30_length_383417_cov_19.387498_fragment_1	35667	Yes	11778	48	3	10	Low-quality	Genome-fragment	17.34	HMM-based (lower-bound)	66.98	1.0	
+TC31_NODE_788_length_9656_cov_1.230454	9656	No	NA	12	1	0	Low-quality	Genome-fragment	16.31	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_35_length_169955_cov_19.238512_fragment_2	44559	No	NA	62	13	3	Medium-quality	Genome-fragment	61.12	HMM-based (lower-bound)	0.0	1.0	
+TC16_NODE_35_length_169955_cov_19.238512_fragment_1	23740	No	NA	25	12	0	Low-quality	Genome-fragment	30.73	HMM-based (lower-bound)	0.0	1.0	
+TC33_NODE_49_length_184266_cov_2.241269_fragment_1	57238	No	NA	82	20	1	Medium-quality	Genome-fragment	79.03	HMM-based (lower-bound)	0.0	1.0	
+TC2_NODE_245_length_89157_cov_1.930237_fragment_1	34485	Yes	18381	49	10	13	Low-quality	Genome-fragment	26.45	HMM-based (lower-bound)	46.7	1.0	low-confidence Provirus
+TC25_k99_8082_fragment_1	35808	No	NA	58	18	1	Medium-quality	Genome-fragment	58.7	HMM-based (lower-bound)	0.0	1.0	
+TC9_NODE_817_length_15909_cov_50.093144	15909	Yes	11673	17	2	2	Low-quality	Genome-fragment	21.98	HMM-based (lower-bound)	26.63	1.0	
+TC1_NODE_68_length_417780_cov_56.735728_fragment_6	34927	Yes	16773	31	3	9	Low-quality	Genome-fragment	22.16	HMM-based (lower-bound)	51.98	1.0	low-confidence Provirus
+TC21_NODE_355_length_25727_cov_3.992500_fragment_1	16556	Yes	6910	12	3	6	Low-quality	Genome-fragment	11.23	HMM-based (lower-bound)	58.26	1.0	
+TC2_NODE_5_length_1259620_cov_26.931676_fragment_17	12690	No	NA	13	2	1	Low-quality	Genome-fragment	12.85	HMM-based (lower-bound)	0.0	1.0	
+TC31_NODE_172_length_54427_cov_10.006151_fragment_1	6398	No	NA	11	2	0	Medium-quality	Genome-fragment	68.93	HMM-based (lower-bound)	0.0	1.0	
+TC5_NODE_144_length_42759_cov_49.104569	42759	No	NA	60	20	0	Medium-quality	Genome-fragment	68.37	HMM-based (lower-bound)	0.0	1.0	
+TC45_NODE_99_length_133277_cov_93.720120_fragment_3	48629	Yes	39150	71	16	5	Medium-quality	Genome-fragment	83.19	HMM-based (lower-bound)	19.49	1.0	

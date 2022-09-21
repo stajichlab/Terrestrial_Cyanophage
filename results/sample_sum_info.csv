@@ -1,0 +1,51 @@
+SRA Assession No.,Cyanobacterial Species,Cyanobacterial Order,Reported Habitat,Habitat,No. of Viral Sequences,No. of Proviruses,Mean Contig Length,Mean Gene Count,No. of Complete Viral Sequences,No. of High-quality Viral Sequences,No. of Medium-quality Viral Sequences,No. of Low-quality Viral Sequences
+SRR12347192,Aetokthonos hydrillicola B3-Florida,Nostocales,Aquatic epiphyte,Aquatic,21,6,32925,36.71428571,1,0,4,11
+SRR13206895,Aphanocapsa lilacina HA4352-LM1,Synechococcales,Cave rock wall,Cave,31,7,29137.03226,37.06451613,0,1,14,15
+SRR11678123,Aphanocapsa sp. GSE-SYN-MK-11-07L,Synechococcales,Desert wet wall,Desert,3,1,18010,19,0,1,0,2
+SRR11676827,Aphanothece saxicola GSE-SYN-MK-01-06B,Chroococcales,Desert wet wall,Desert,7,3,42846.71429,48.71428571,0,1,2,2
+SRR12347633,Aphanothece sp. CMT-3BRIN-NPC111,Chroococcales,Desert soil,Desert,18,3,25649.33333,34.05555556,0,0,6,9
+SRR12347719,Brasilonema angustatum HA4187-MV1,Nostocales,Tropical soil,Tropics,17,2,37850.52941,45.64705882,1,3,4,5
+SRR11678155,Brasilonema octagenarum HA4186-MV1,Nostocales,On wood in tropics,Tropics,24,10,26039.625,32.875,0,4,1,17
+SRR12347730,Calothrix sp. FI2-JRJ7,Nostocales,Desert soil,Desert,10,1,39900.8,56.6,0,0,8,1
+SRR12688413,Chroococcus sp. CMT-3BRIN-NPC107,Chroococcales,Desert soil,Desert,41,8,25266.60976,29.80487805,0,4,6,24
+SRR11676926,Cyanomargarita calcarea GSE-NOS-MK-12-04C,Nostocales,Desert wet wall,Desert,13,5,28143.23077,33.69230769,0,0,3,9
+SRR12688412,Cyanosarcina radialis HA8281-LM2,Chroococcales,Cave rock wall,Cave,31,10,37464.16129,48.51612903,1,2,9,19
+SRR11676647,Desmonostoc geniculatum HA4340-LM1,Nostocales,Cave rock wall,Cave,13,1,26544.76923,32.69230769,0,0,3,8
+SRR12951526,Desmonostoc vinosum HA7617-LM4,Nostocales,Cave rock wall,Cave,10,NA,23407.3,32.5,1,2,1,4
+SRR12347860,Drouetiella hepatica UHER 2000/2452,Pseudanabaenales,Rock surface,Rock,15,1,24928.06667,34.13333333,0,1,3,11
+SRR12347921,Gloeocapsa sp. UFS-A4-WI-NPMV-4B04,Chroococcales,Desert soil,Desert,16,3,11102.9375,12.875,0,0,0,14
+SRR11676930,Goleter apudmare HA4340-LM2,Nostocales,Cave rock wall,Cave,20,2,25282.3,34.3,0,0,7,12
+SRR12347922,Hassallia sp. WJT32-NPBG1,Nostocales,Desert soil,Desert,8,2,18439.875,21.125,0,0,0,7
+SRR12951525,Hormoscilla sp. CMT-3BRIN-NPC48,Oscillatoriales,Desert soil,Desert,12,1,18447,25.25,0,0,1,9
+SRR12349226,Iphinoe sp. HA4291-MV1,Nostocales,Tropical soil,Tropics,32,6,23691.03125,28.75,0,0,5,21
+SRR13242888,Kaiparowitsia implicata GSE-PSE-MK54-09C,Pseudanabaenales,Desert wet wall,Desert,13,2,25166.76923,35.61538462,0,0,3,9
+SRR11678224,Kastovskya adunca ATA6-11-RM4,Oscillatoriales,Desert soil,Desert,52,11,26544.21154,32.84615385,0,4,14,30
+SRR12951531,Komarekiella atlantica HA4396-MV6,Nostocales,Tropical vernal pool,Tropics,26,8,23424.5,32.26923077,0,0,7,17
+SRR11676618,Lyngbya sp. HA4199-MV5,Oscillatoriales,Tropical soil,Tropics,12,5,35424.41667,45.66666667,0,0,4,6
+SRR13207170,Microcoleus vaginatus WJT46-NPBG5,Oscillatoriales,Desert soil,Desert,16,5,31344.75,42.375,0,0,6,9
+SRR12951532,Mojavia pulchra JT2-VF2,Nostocales,Desert soil,Desert,42,12,27462.11905,38.61904762,0,1,14,26
+SRR11678221,Myxacorys californica WJT36-NPBG1,Pseudanabaenales,Desert soil,Desert,7,3,26448.42857,28.71428571,0,0,1,4
+SRR11678144,Myxacorys chilensis ATA2-1-KO14,Pseudanabaenales,Desert soil,Desert,2,NA,9691,7.5,0,0,0,1
+SRR11676645,Nodosilinea sp. WJT8-NPBG4,Pseudanabaenales,Desert soil,Desert,5,2,47370.6,70.2,0,0,3,2
+SRR12349250,Nostoc desertorum CM1-VF14,Nostocales,Desert soil,Desert,54,19,33805.98148,44.68518519,1,1,19,22
+SRR11678133,Nostoc indistinguendum CM1-VF10,Nostocales,Desert soil,Desert,10,5,34788.1,45.1,1,0,2,7
+SRR11678154,Oscillatoria princeps RMCB-10,Oscillatoriales,Surface water,Aquatic,20,2,22093.95,28.3,0,0,7,13
+SRR11678132,Oscillatoria tanganyikae FI6-MK23,Oscillatoriales,Desert soil,Desert,23,6,28528.04348,33.17391304,0,0,5,14
+SRR12349533,Pegethrix bostrychoides GSE-TBD4-15B,Pseudanabaenales,Desert wet wall,Desert,7,1,36446.14286,47.42857143,0,1,1,5
+SRR12687981,Pelatocladus maniniholoensis HA4357-MV3,Nostocales,Cave rock wall,Cave,1,NA,24917,36,0,0,0,1
+SRR12349534,Plectolyngbya sp. WJT66-NPBG17,Pseudanabaenales,Desert soil,Desert,2,NA,19749,19.5,0,0,0,2
+SRR13207074,Pleurocapsa minor GSE-CHR-MK-17-07R,Pleurocapsales,Desert wet wall,Desert,22,7,16137.77273,21.13636364,0,0,2,19
+SRR12349680,Pleurocapsa minor HA4230-MV1,Pleurocapsales,Tropical rock wall,Tropics,6,NA,14028.16667,13.33333333,0,0,1,2
+SRR12349737,Scytolyngbya sp. HA4215-MV1,Pseudanabaenales,Freshwater stream,Aquatic,13,4,22400.30769,28.07692308,0,0,4,8
+SRR12349874,Scytonema hyalinum WJT4-NPBG1,Nostocales,Desert soil,Desert,18,3,28967.88889,41.83333333,0,0,8,9
+SRR12688486,Scytonematopsis contorta HA4267-MV1,Nostocales,Tropical vernal pool,Tropics,2,NA,51417.5,72,0,0,1,1
+SRR13242887,Spirirestis rafaelensis WJT71-NPBG6,Nostocales,Desert soil,Desert,5,1,20728,29.6,0,0,1,4
+SRR12350322,Stenomitos rutilans HA7619-LM2,Pseudanabaenales,Cave rock wall,Cave,18,1,31971,41.33333333,0,1,3,10
+SRR12350505,Symplocastrum torsivum CPER-KK1,Oscillatoriales,Grassland soil,Grassland,24,5,26717.375,32.41666667,0,2,4,15
+SRR11676687,Tildeniella nuda ZEHNDER 1965/U140,Pseudanabaenales,Temperate wet wall,Temperate,26,6,28823.73077,37.38461538,0,0,9,10
+SRR12689282,Tildeniella torsiva UHER 1998/13D,Pseudanabaenales,Temperate wet wall,Temperate,6,1,31943.16667,42,0,0,4,2
+SRR11678220,Timaviella obliquedivisa GSE-PSE-MK23-08B,Pseudanabaenales,Desert wet wall,Desert,16,3,20356.6875,24.375,0,1,3,6
+SRR11678125,Tolypothrix brevis GSE-NOS-MK-07-07A,Nostocales,Desert wet wall,Desert,9,1,26085.22222,35.88888889,0,0,3,5
+SRR11678124,Tolypothrix carrinoi HA7290-LM1,Nostocales,Cave rock wall,Cave,8,2,28431,38.25,1,1,1,4
+SRR11678143,Trichocoleus desertorum ATA4-8-CV12,Synechococcales,Desert soil,Desert,3,NA,11970.33333,14,0,0,0,1
+SRR11676933,Trichormus sp. ATA11-4-KO1,Nostocales,Desert soil,Desert,4,1,47140.75,59.75,0,1,1,1
