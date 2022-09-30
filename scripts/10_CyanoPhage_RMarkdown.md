@@ -20,7 +20,8 @@ library(ggforce)
 
 # vOTU processing
 
-# following some of Christian Santos Medellin’s scripts <https://github.com/cmsantosm/SpatioTemporalViromes/blob/master/Processing/Scripts/votu_filtering.Rmd>
+Following some of Christian Santos Medellin’s scripts:
+<https://github.com/cmsantosm/SpatioTemporalViromes/blob/master/Processing/Scripts/votu_filtering.Rmd>
 
 ``` r
 # get file names
@@ -796,13 +797,14 @@ checkv_cdhit_tax.meta <- left_join(checkv_cdhit_tax, meta, by = c(Sample = "samp
 
 vir.hab.nodes.hq <- clstrd.nodes %>%
     left_join(select(clstr.master, VC, ClstrComp), by = "VC") %>%
-    left_join(checkv_cdhit_tax.meta, by = c(VC = "VCStatus")) %>%
+    left_join(select(checkv_cdhit_tax.meta, VCStatus, checkv_quality,
+        Habitat_Group), by = c(VC = "VCStatus")) %>%
     filter(!checkv_quality %in% c("Not-determined")) %>%
     mutate(Habitat_Group = ifelse(is.na(Habitat_Group), "Unknown",
         as.character(Habitat_Group)))  #%>%
 # filter(Source == 'refseq' | ClstrComp == 'both')
 
-vir.hab.nodes.hq <- vir.hab.nodes.hq[-c(26:69, 71:72)]
+vir.hab.nodes.hq <- vir.hab.nodes.hq[-c(66)]
 
 
 # Plot
@@ -900,7 +902,7 @@ meta.sub.seq <- checkv_cdhit_tax.meta %>%
         "VC with reference genomes")) %>%
     tally() %>%
     arrange(desc(Habitat_Group)) %>%
-    mutate(lab_ypos = n + 0.05 * n + 5) %>%
+    mutate(lab_ypos = n + 0.1 * n + 20) %>%
     mutate(norm = n/sum(n) * 100)
 
 a_hab_seq <- ggplot(meta.sub.seq, aes(y = Habitat_Group, fill = Habitat_Group,
@@ -912,7 +914,8 @@ a_hab_seq <- ggplot(meta.sub.seq, aes(y = Habitat_Group, fill = Habitat_Group,
         "#D55E00", "#CC79A7", "gray75")) + ylab("") + facet_wrap(~Order,
     scales = "free") + xlab("Number of viral sequences") + geom_text(aes(x = lab_ypos,
     label = n, group = Habitat_Group), fontface = "bold", size = 4,
-    color = "black") + scale_y_discrete(limits = rev) + theme(legend.position = "none")  #+ xlim(0,190)
+    color = "black") + scale_y_discrete(limits = rev) + theme(legend.position = "none") +
+    xlim(0, 190)
 
 # taxonomy
 
