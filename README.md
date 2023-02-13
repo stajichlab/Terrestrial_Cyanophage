@@ -5,5 +5,4 @@
 
 ### To cite this work or code
 
-Ettinger CL, Ostovar T, Yacoub M, Ahrendt S, Hice RH, Federici BA, & Stajich JE. Submitted. Genomic resources enable insight into the developmental transcriptome of the blastoclad fungus, Coelomomyces lativittatus, an obligate parasite of mosquitoes and microcrustaceans. Preprint available on bioRxiv. DOI: 10.1101/2023.01.14.524055 
-
+Ettinger CL, Paul S, Flores N, Pietrasiak N, & Stajich JE. Exploring Viral Communities Associated with Terrestrial Cyanobacteria Metagenomes. Preprint available on bioRxiv. DOI: 10.1101/2022.12.14.520320 
