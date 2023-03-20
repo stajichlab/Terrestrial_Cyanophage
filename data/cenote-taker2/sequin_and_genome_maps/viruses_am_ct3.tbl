@@ -1,0 +1,427 @@
+>Feature viruses_am_ct3 Table1
+146	9	CDS
+			protein_id	lcl|viruses_am_ct3_1
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+1031	168	CDS
+			protein_id	lcl|viruses_am_ct3_2
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+1821	1000	CDS
+			protein_id	lcl|viruses_am_ct3_3
+			product	Family of unknown function (DUF5653)
+			inference	protein motif:CDD:408667
+2102	1824	CDS
+			protein_id	lcl|viruses_am_ct3_4
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+2985	2164	CDS
+			protein_id	lcl|viruses_am_ct3_5
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+3209	3114	CDS
+			protein_id	lcl|viruses_am_ct3_6
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+3288	3160	CDS
+			protein_id	lcl|viruses_am_ct3_7
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+3548	3411	CDS
+			protein_id	lcl|viruses_am_ct3_8
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+3721	3557	CDS
+			protein_id	lcl|viruses_am_ct3_9
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+3690	4016	CDS
+			protein_id	lcl|viruses_am_ct3_10
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+4097	4210	CDS
+			protein_id	lcl|viruses_am_ct3_11
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+4248	5462	CDS
+			protein_id	lcl|viruses_am_ct3_12
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+5620	5733	CDS
+			protein_id	lcl|viruses_am_ct3_13
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+5883	6023	CDS
+			protein_id	lcl|viruses_am_ct3_14
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+6102	6203	CDS
+			protein_id	lcl|viruses_am_ct3_15
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+6301	6426	CDS
+			protein_id	lcl|viruses_am_ct3_16
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+6438	6701	CDS
+			protein_id	lcl|viruses_am_ct3_17
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+6739	6837	CDS
+			protein_id	lcl|viruses_am_ct3_18
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+7038	6922	CDS
+			protein_id	lcl|viruses_am_ct3_19
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+7553	7170	CDS
+			protein_id	lcl|viruses_am_ct3_20
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+7585	7683	CDS
+			protein_id	lcl|viruses_am_ct3_21
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+7792	10323	CDS
+			protein_id	lcl|viruses_am_ct3_22
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+10492	10373	CDS
+			protein_id	lcl|viruses_am_ct3_23
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+10612	10517	CDS
+			protein_id	lcl|viruses_am_ct3_24
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+11065	10691	CDS
+			protein_id	lcl|viruses_am_ct3_25
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+11373	11065	CDS
+			protein_id	lcl|viruses_am_ct3_26
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+12991	12560	CDS
+			protein_id	lcl|viruses_am_ct3_28
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+13671	13003	CDS
+			protein_id	lcl|viruses_am_ct3_29
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+15170	13710	CDS
+			protein_id	lcl|viruses_am_ct3_30
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+15302	15180	CDS
+			protein_id	lcl|viruses_am_ct3_31
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+15679	15446	CDS
+			protein_id	lcl|viruses_am_ct3_32
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+15698	17734	CDS
+			protein_id	lcl|viruses_am_ct3_33
+			product	Domain of unknown function (DUF4114)
+			inference	protein motif:CDD:433216
+17987	18136	CDS
+			protein_id	lcl|viruses_am_ct3_34
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+19964	19533	CDS
+			protein_id	lcl|viruses_am_ct3_36
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+20968	20054	CDS
+			protein_id	lcl|viruses_am_ct3_37
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+22016	20982	CDS
+			protein_id	lcl|viruses_am_ct3_38
+			product	Domain of unknown function (DUF932)
+			inference	protein motif:CDD:428749
+24036	22108	CDS
+			protein_id	lcl|viruses_am_ct3_39
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+24302	24391	CDS
+			protein_id	lcl|viruses_am_ct3_40
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+27061	25871	CDS
+			protein_id	lcl|viruses_am_ct3_42
+			product	Helix-turn-helix domain
+			inference	protein motif:CDD:433438
+27332	27054	CDS
+			protein_id	lcl|viruses_am_ct3_43
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+27421	27293	CDS
+			protein_id	lcl|viruses_am_ct3_44
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+27654	27466	CDS
+			protein_id	lcl|viruses_am_ct3_45
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+27859	27734	CDS
+			protein_id	lcl|viruses_am_ct3_46
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+28082	27981	CDS
+			protein_id	lcl|viruses_am_ct3_47
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+28476	28177	CDS
+			protein_id	lcl|viruses_am_ct3_48
+			product	IS1 family transposase
+			inference	protein motif:CDD:411189
+28960	28562	CDS
+			protein_id	lcl|viruses_am_ct3_49
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+29176	28973	CDS
+			protein_id	lcl|viruses_am_ct3_50
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+29291	29196	CDS
+			protein_id	lcl|viruses_am_ct3_51
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+29555	29460	CDS
+			protein_id	lcl|viruses_am_ct3_52
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+29741	30922	CDS
+			protein_id	lcl|viruses_am_ct3_53
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+32225	32965	CDS
+			protein_id	lcl|viruses_am_ct3_55
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+33091	33330	CDS
+			protein_id	lcl|viruses_am_ct3_56
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+33508	33891	CDS
+			protein_id	lcl|viruses_am_ct3_57
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+34960	35049	CDS
+			protein_id	lcl|viruses_am_ct3_59
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+35117	35701	CDS
+			protein_id	lcl|viruses_am_ct3_60
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+35676	35864	CDS
+			protein_id	lcl|viruses_am_ct3_61
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+36113	36012	CDS
+			protein_id	lcl|viruses_am_ct3_62
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+36757	36125	CDS
+			protein_id	lcl|viruses_am_ct3_63
+			product	4Fe-4S single cluster domain
+			inference	protein motif:CDD:433138
+40605	36760	CDS
+			protein_id	lcl|viruses_am_ct3_64
+			product	Tetratricopeptide repeat
+			inference	protein motif:CDD:315987
+42221	40662	CDS
+			protein_id	lcl|viruses_am_ct3_65
+			product	HSP70_NBD
+			inference	protein motif:CDD:212667
+42464	42571	CDS
+			protein_id	lcl|viruses_am_ct3_66
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+42710	43633	CDS
+			protein_id	lcl|viruses_am_ct3_67
+			product	Double-GTPase 2
+			inference	protein motif:CDD:437825
+43671	44807	CDS
+			protein_id	lcl|viruses_am_ct3_68
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+44810	45805	CDS
+			protein_id	lcl|viruses_am_ct3_69
+			product	Double-GTPase 2
+			inference	protein motif:CDD:437825
+45837	45956	CDS
+			protein_id	lcl|viruses_am_ct3_70
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+45987	46985	CDS
+			protein_id	lcl|viruses_am_ct3_71
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+46978	48453	CDS
+			protein_id	lcl|viruses_am_ct3_72
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+49295	48489	CDS
+			protein_id	lcl|viruses_am_ct3_73
+			product	Chromosome segregation ATPases 
+			inference	protein motif:CDD:224117
+53348	51858	CDS
+			protein_id	lcl|viruses_am_ct3_75
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+53452	53610	CDS
+			protein_id	lcl|viruses_am_ct3_76
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+53715	54188	CDS
+			protein_id	lcl|viruses_am_ct3_77
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+55422	54235	CDS
+			protein_id	lcl|viruses_am_ct3_78
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+55787	55425	CDS
+			protein_id	lcl|viruses_am_ct3_79
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+57605	57426	CDS
+			protein_id	lcl|viruses_am_ct3_81
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+58330	57638	CDS
+			protein_id	lcl|viruses_am_ct3_82
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+58940	58371	CDS
+			protein_id	lcl|viruses_am_ct3_83
+			product	Phage tail tube protein FII 
+			inference	protein motif:CDD:226029
+59402	58941	CDS
+			protein_id	lcl|viruses_am_ct3_84
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+60460	60050	CDS
+			protein_id	lcl|viruses_am_ct3_86
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+61158	60463	CDS
+			protein_id	lcl|viruses_am_ct3_87
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+61874	61158	CDS
+			protein_id	lcl|viruses_am_ct3_88
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+62527	61991	CDS
+			protein_id	lcl|viruses_am_ct3_89
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+62535	62798	CDS
+			protein_id	lcl|viruses_am_ct3_90
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+62816	62905	CDS
+			protein_id	lcl|viruses_am_ct3_91
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+63014	63103	CDS
+			protein_id	lcl|viruses_am_ct3_92
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+63136	64218	CDS
+			protein_id	lcl|viruses_am_ct3_93
+			product	ParM_like
+			inference	protein motif:CDD:212669
+64218	64481	CDS
+			protein_id	lcl|viruses_am_ct3_94
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+64532	64717	CDS
+			protein_id	lcl|viruses_am_ct3_95
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+64764	64925	CDS
+			protein_id	lcl|viruses_am_ct3_96
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+65201	65049	CDS
+			protein_id	lcl|viruses_am_ct3_97
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+66866	67054	CDS
+			protein_id	lcl|viruses_am_ct3_99
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+67103	67258	CDS
+			protein_id	lcl|viruses_am_ct3_100
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+67400	67311	CDS
+			protein_id	lcl|viruses_am_ct3_101
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+68621	67407	CDS
+			protein_id	lcl|viruses_am_ct3_102
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+68743	68618	CDS
+			protein_id	lcl|viruses_am_ct3_103
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+69639	68872	CDS
+			protein_id	lcl|viruses_am_ct3_104
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+69795	69697	CDS
+			protein_id	lcl|viruses_am_ct3_105
+			product	hypothetical protein
+			note	No RPS-BLAST hit
+72776	69915	CDS
+			protein_id	lcl|viruses_am_ct3_106
+			product	CHAT domain
+			inference	protein motif:CDD:432771
+
+
+12547	11402	CDS
+			protein_id	lcl|viruses_am_ct3_27
+			product	capsid protein
+			inference	protein motif:PDB:3BQW_A
+19579	18050	CDS
+			protein_id	lcl|viruses_am_ct3_35
+			product	Large Terminase
+			inference	protein motif:PDB:4BIL_D
+57436	55796	CDS
+			protein_id	lcl|viruses_am_ct3_80
+			product	minor tail protein
+			inference	protein motif:PFAM:PF10145.8
+60034	59405	CDS
+			protein_id	lcl|viruses_am_ct3_85
+			product	Phage virion morphogenesis protein
+			inference	protein motif:PFAM:PF05069.12
+25866	24493	CDS
+			protein_id	lcl|viruses_am_ct3_41
+			product	Replicative helicase
+			inference	protein motif:PDB:4ESV_C
+31003	32073	CDS
+			protein_id	lcl|viruses_am_ct3_54
+			product	Cytosine specific methyltransferase
+			inference	protein motif:PDB:3ME5_A
+34021	34959	CDS
+			protein_id	lcl|viruses_am_ct3_58
+			product	SITE SPECIFIC RECOMBINASE XERD
+			inference	protein motif:PDB:1A0P_A
+51843	49300	CDS
+			protein_id	lcl|viruses_am_ct3_74
+			product	Replicative helicase, DNA primase
+			inference	protein motif:PDB:4M4W_K
+65227	66729	CDS
+			protein_id	lcl|viruses_am_ct3_98
+			product	Reverse transcriptase
+			inference	protein motif:PDB:6AR3_D
