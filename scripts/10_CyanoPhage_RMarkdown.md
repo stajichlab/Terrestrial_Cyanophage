@@ -797,11 +797,10 @@ checkv_cdhit_tax.meta <- left_join(checkv_cdhit_tax, meta, by = c(Sample = "samp
 
 vir.hab.nodes.hq <- clstrd.nodes %>%
     left_join(select(clstr.master, VC, ClstrComp), by = "VC") %>%
-    left_join(select(checkv_cdhit_tax.meta, VCStatus, checkv_quality,
-        Habitat_Group), by = c(VC = "VCStatus")) %>%
+    left_join(select(checkv_cdhit_tax.meta, Genome, checkv_quality, Koeppen.Broad), by = c("Genome")) %>%
     filter(!checkv_quality %in% c("Not-determined")) %>%
-    mutate(Habitat_Group = ifelse(is.na(Habitat_Group), "Unknown",
-        as.character(Habitat_Group)))  #%>%
+    mutate(Habitat_Group = ifelse(is.na(Koeppen.Broad), "Unknown",
+        as.character(Koeppen.Broad)))  #%>%
 # filter(Source == 'refseq' | ClstrComp == 'both')
 
 vir.hab.nodes.hq <- vir.hab.nodes.hq[-c(66)]
@@ -812,9 +811,8 @@ ntwk.hab.vir.hq <- vir.hab.nodes.hq %>%
     ggplot(aes(x, y)) + geom_line(data = filter(edges, Genome %in%
     vir.hab.nodes.hq$Genome), aes(group = Pair), alpha = 0.1,
     color = "gray25", size = 0.5) + geom_point(alpha = 0.8, size = 2,
-    shape = 16, aes(color = Habitat_Group)) + scale_color_manual(name = "Habitat",
-    values = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2",
-        "#D55E00", "#CC79A7", "gray75")) + theme_minimal() +
+    shape = 16, aes(color = Koeppen.Broad)) + scale_color_manual(name = "Habitat",
+    values = c("#E69F00", "#56B4E9", "#009E73", "#CC79A7", "gray75")) + theme_minimal() +
     theme(axis.text = element_blank(), axis.title = element_blank(),
         panel.grid = element_blank(), legend.position = "right") +
     guides(color = guide_legend(override.aes = list(shape = 16,
@@ -897,23 +895,21 @@ meta.sub.seq <- checkv_cdhit_tax.meta %>%
     filter(checkv_quality %in% c("High-quality", "Complete",
         "Medium-quality", "Low-quality")) %>%
     filter(ClusterStatus == "Clustered") %>%
-    group_by(Habitat_Group, Order) %>%
+    group_by(Koeppen.Broad, Order) %>%
     mutate(Order = ifelse(Order == "Unassigned", "Unique VC",
         "VC with reference genomes")) %>%
     tally() %>%
-    arrange(desc(Habitat_Group)) %>%
+    arrange(desc(Koeppen.Broad)) %>%
     mutate(lab_ypos = n + 0.1 * n + 20) %>%
     mutate(norm = n/sum(n) * 100)
 
-a_hab_seq <- ggplot(meta.sub.seq, aes(y = Habitat_Group, fill = Habitat_Group,
-    color = Habitat_Group, x = n)) + geom_bar(stat = "identity",
+a_hab_seq <- ggplot(meta.sub.seq, aes(y = Koeppen.Broad, fill = Koeppen.Broad,
+    color = Koeppen.Broad, x = n)) + geom_bar(stat = "identity",
     position = "stack", width = 0.6, orientation = "y") + scale_fill_manual(name = "Habitat",
-    values = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2",
-        "#D55E00", "#CC79A7", "gray75")) + scale_color_manual(name = "Habitat",
-    values = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2",
-        "#D55E00", "#CC79A7", "gray75")) + ylab("") + facet_wrap(~Order,
+    values = c("#E69F00", "#56B4E9", "#009E73", "#CC79A7", "gray75")) + scale_color_manual(name = "Habitat",
+    values = c("#E69F00", "#56B4E9", "#009E73", "#CC79A7", "gray75")) + ylab("") + facet_wrap(~Order,
     scales = "free") + xlab("Number of viral sequences") + geom_text(aes(x = lab_ypos,
-    label = n, group = Habitat_Group), fontface = "bold", size = 4,
+    label = n, group = Koeppen.Broad), fontface = "bold", size = 4,
     color = "black") + scale_y_discrete(limits = rev) + theme(legend.position = "none") +
     xlim(0, 190)
 
@@ -1056,8 +1052,8 @@ a <- ggplot(vOTU_avgs_grouped.meta, aes(x = mean, fill = Family2,
 # host x relative abundance
 b <- ggplot(hostpred_avgs_grouped.meta, aes(x = mean, fill = Phylum,
     y = TaxID)) + geom_bar(orientation = "y", stat = "identity",
-    position = "stack", width = 0.6) + scale_fill_viridis_d(option = "G",
-    begin = 0.25, direction = 1) + theme(axis.text.y = element_blank(),
+    position = "stack", width = 0.6) +   scale_fill_manual(values=c("#CC79A7","#F0E442",  
+    "#0072B2", "#D55E00", "#009E73", "grey75"))+ + theme(axis.text.y = element_blank(),
     axis.ticks.y = element_blank()) + ylab("") + ggtitle("C") +
     xlab("Relative Abundance (%)") + scale_y_discrete(limits = rev)
 
