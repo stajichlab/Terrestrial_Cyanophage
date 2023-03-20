@@ -5,11 +5,4 @@
 
 ### To cite this work or code
 
-<i> DOI coming soon <i>
-	
-<i>Manuscript coming soon</i>
-
-### Abstract
-
-<i>Coming soon </i>
-
+Ettinger CL, Paul S, Flores N, Pietrasiak N, & Stajich JE. Exploring Viral Communities Associated with Terrestrial Cyanobacteria Metagenomes. Preprint available on bioRxiv. DOI: 10.1101/2022.12.14.520320 
