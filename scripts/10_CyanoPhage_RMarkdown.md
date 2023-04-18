@@ -12,10 +12,10 @@ library(vroom)
 library(phyloseq)
 library(microbiome)
 library(vegan)
-library(EcolUtils)
 library(patchwork)
 library(ggnewscale)
 library(ggforce)
+library(ggtext)
 ```
 
 # vOTU processing
@@ -789,6 +789,15 @@ ntwk.vir.hq <- vir.fam.nodes.hq %>%
         panel.grid = element_blank(), legend.position = "right") +
     guides(color = guide_legend(override.aes = list(shape = 16,
         size = 4)))
+```
+
+    ## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+    ## ℹ Please use `linewidth` instead.
+    ## This warning is displayed once every 8 hours.
+    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+    ## generated.
+
+``` r
 # ntwk.vir.hq
 
 
@@ -798,10 +807,19 @@ checkv_cdhit_tax.meta <- left_join(checkv_cdhit_tax, meta, by = c(Sample = "samp
 vir.hab.nodes.hq <- clstrd.nodes %>%
     left_join(select(clstr.master, VC, ClstrComp), by = "VC") %>%
     left_join(select(checkv_cdhit_tax.meta, VCStatus, checkv_quality,
-        Habitat_Group), by = c(VC = "VCStatus")) %>%
+        Koeppen.Broad), by = c(VC = "VCStatus")) %>%
     filter(!checkv_quality %in% c("Not-determined")) %>%
-    mutate(Habitat_Group = ifelse(is.na(Habitat_Group), "Unknown",
-        as.character(Habitat_Group)))  #%>%
+    mutate(Koeppen.Broad = ifelse(is.na(Koeppen.Broad), "Unknown",
+        as.character(Koeppen.Broad)))  #%>%
+```
+
+    ## Warning in left_join(., select(checkv_cdhit_tax.meta, VCStatus, checkv_quality, : Detected an unexpected many-to-many relationship between `x` and `y`.
+    ## ℹ Row 83 of `x` matches multiple rows in `y`.
+    ## ℹ Row 438 of `y` matches multiple rows in `x`.
+    ## ℹ If a many-to-many relationship is expected, set `relationship =
+    ##   "many-to-many"` to silence this warning.
+
+``` r
 # filter(Source == 'refseq' | ClstrComp == 'both')
 
 vir.hab.nodes.hq <- vir.hab.nodes.hq[-c(66)]
@@ -812,11 +830,10 @@ ntwk.hab.vir.hq <- vir.hab.nodes.hq %>%
     ggplot(aes(x, y)) + geom_line(data = filter(edges, Genome %in%
     vir.hab.nodes.hq$Genome), aes(group = Pair), alpha = 0.1,
     color = "gray25", size = 0.5) + geom_point(alpha = 0.8, size = 2,
-    shape = 16, aes(color = Habitat_Group)) + scale_color_manual(name = "Habitat",
-    values = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2",
-        "#D55E00", "#CC79A7", "gray75")) + theme_minimal() +
-    theme(axis.text = element_blank(), axis.title = element_blank(),
-        panel.grid = element_blank(), legend.position = "right") +
+    shape = 16, aes(color = Koeppen.Broad)) + scale_color_manual(name = "Biome",
+    values = c("#E69F00", "#56B4E9", "#CC79A7", "#009E73", "gray75")) +
+    theme_minimal() + theme(axis.text = element_blank(), axis.title = element_blank(),
+    panel.grid = element_blank(), legend.position = "right") +
     guides(color = guide_legend(override.aes = list(shape = 16,
         size = 4)))
 
@@ -897,25 +914,24 @@ meta.sub.seq <- checkv_cdhit_tax.meta %>%
     filter(checkv_quality %in% c("High-quality", "Complete",
         "Medium-quality", "Low-quality")) %>%
     filter(ClusterStatus == "Clustered") %>%
-    group_by(Habitat_Group, Order) %>%
+    group_by(Koeppen.Broad, Order) %>%
     mutate(Order = ifelse(Order == "Unassigned", "Unique VC",
         "VC with reference genomes")) %>%
     tally() %>%
-    arrange(desc(Habitat_Group)) %>%
+    arrange(desc(Koeppen.Broad)) %>%
     mutate(lab_ypos = n + 0.1 * n + 20) %>%
     mutate(norm = n/sum(n) * 100)
 
-a_hab_seq <- ggplot(meta.sub.seq, aes(y = Habitat_Group, fill = Habitat_Group,
-    color = Habitat_Group, x = n)) + geom_bar(stat = "identity",
+a_hab_seq <- ggplot(meta.sub.seq, aes(y = Koeppen.Broad, fill = Koeppen.Broad,
+    color = Koeppen.Broad, x = n)) + geom_bar(stat = "identity",
     position = "stack", width = 0.6, orientation = "y") + scale_fill_manual(name = "Habitat",
-    values = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2",
-        "#D55E00", "#CC79A7", "gray75")) + scale_color_manual(name = "Habitat",
-    values = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2",
-        "#D55E00", "#CC79A7", "gray75")) + ylab("") + facet_wrap(~Order,
-    scales = "free") + xlab("Number of viral sequences") + geom_text(aes(x = lab_ypos,
-    label = n, group = Habitat_Group), fontface = "bold", size = 4,
-    color = "black") + scale_y_discrete(limits = rev) + theme(legend.position = "none") +
-    xlim(0, 190)
+    values = c("#E69F00", "#56B4E9", "#CC79A7", "#009E73", "gray75")) +
+    scale_color_manual(name = "Habitat", values = c("#E69F00",
+        "#56B4E9", "#CC79A7", "#009E73", "gray75")) + ylab("") +
+    facet_wrap(~Order, scales = "free") + xlab("Number of viral sequences") +
+    geom_text(aes(x = lab_ypos, label = n, group = Koeppen.Broad),
+        fontface = "bold", size = 4, color = "black") + scale_y_discrete(limits = rev) +
+    theme(legend.position = "none") + xlim(0, 190)
 
 # taxonomy
 
@@ -963,14 +979,14 @@ ggsave(filename = "plots/cyano_VC_networks_hq_ictv.png", plot = last_plot(),
 vOTU_avgs_grouped.meta <- left_join(vOTU_avgs_grouped, meta)
 ```
 
-    ## Joining, by = "TaxID"
+    ## Joining with `by = join_by(TaxID)`
 
 ``` r
 hostpred_avgs_grouped.meta <- left_join(hostpred_avgs_grouped,
     meta)
 ```
 
-    ## Joining, by = "TaxID"
+    ## Joining with `by = join_by(TaxID)`
 
 ``` r
 # plot relative abundance charts
@@ -1056,10 +1072,11 @@ a <- ggplot(vOTU_avgs_grouped.meta, aes(x = mean, fill = Family2,
 # host x relative abundance
 b <- ggplot(hostpred_avgs_grouped.meta, aes(x = mean, fill = Phylum,
     y = TaxID)) + geom_bar(orientation = "y", stat = "identity",
-    position = "stack", width = 0.6) + scale_fill_viridis_d(option = "G",
-    begin = 0.25, direction = 1) + theme(axis.text.y = element_blank(),
-    axis.ticks.y = element_blank()) + ylab("") + ggtitle("C") +
-    xlab("Relative Abundance (%)") + scale_y_discrete(limits = rev)
+    position = "stack", width = 0.6) + scale_fill_manual(values = c("#CC79A7",
+    "#F0E442", "#0072B2", "#D55E00", "#009E73", "grey75")) +
+    theme(axis.text.y = element_blank(), axis.ticks.y = element_blank()) +
+    ylab("") + ggtitle("C") + xlab("Relative Abundance (%)") +
+    scale_y_discrete(limits = rev)
 
 
 # viral seqs per sample
@@ -1093,7 +1110,34 @@ viralseq$TaxID <- factor(viralseq$TaxID, levels = c("Aphanothece saxicola GSE-SY
     "Pegethrix bostrychoides GSE-TBD4-15B", "Tildeniella nuda ZEHNDER 1965/U140",
     "Tildeniella torsiva UHER 1998/13D", "Timaviella obliquedivisa GSE-PSE-MK23-08B",
     "Nodosilinea sp. WJT8-NPBG4", "Aphanocapsa lilacina HA4352-LM1",
-    "Aphanocapsa sp. GSE-SYN-MK-11-07L", "Trichocoleus desertorum ATA4-8-CV12"))
+    "Aphanocapsa sp. GSE-SYN-MK-11-07L", "Trichocoleus desertorum ATA4-8-CV12"),
+    labels = c("*Aphanothece saxicola* GSE-SYN-MK-01-06B", "*Aphanothece* sp. CMT-3BRIN-NPC111",
+        "*Chroococcus* sp. CMT-3BRIN-NPC107", "*Cyanosarcina radialis* HA8281-LM2",
+        "*Gloeocapsa* sp. UFS-A4-WI-NPMV-4B04", "*Calothrix* sp. FI2-JRJ7",
+        "*Cyanomargarita calcarea* GSE-NOS-MK-12-04C", "*Aetokthonos hydrillicola* B3-Florida",
+        "*Desmonostoc geniculatum* HA4340-LM1", "*Desmonostoc vinosum* HA7617-LM4",
+        "*Goleter apudmare* HA4340-LM2", "*Komarekiella atlantica* HA4396-MV6",
+        "*Mojavia pulchra* JT2-VF2", "*Nostoc desertorum* CM1-VF14",
+        "*Nostoc indistinguendum* CM1-VF10", "*Pelatocladus maniniholoensis* HA4357-MV3",
+        "*Trichormus* sp. ATA11-4-KO1", "*Brasilonema angustatum* HA4187-MV1",
+        "*Brasilonema octagenarum* HA4186-MV1", "*Scytonema hyalinum* WJT4-NPBG1",
+        "*Scytonematopsis contorta* HA4267-MV1", "*Iphinoe* sp. HA4291-MV1",
+        "*Hassallia* sp. WJT32-NPBG1", "*Spirirestis rafaelensis* WJT71-NPBG6",
+        "*Tolypothrix brevis* GSE-NOS-MK-07-07A", "*Tolypothrix carrinoi* HA7290-LM1",
+        "*Kastovskya adunca* ATA6-11-RM4", "*Hormoscilla* sp. CMT-3BRIN-NPC48",
+        "*Symplocastrum torsivum* CPER-KK1", "*Microcoleus vaginatus* WJT46-NPBG5",
+        "*Lyngbya* sp. HA4199-MV5", "*Oscillatoria princeps* RMCB-10",
+        "*Oscillatoria tanganyikae* FI6-MK23", "*Pleurocapsa minor* GSE-CHR-MK-17-07R",
+        "*Pleurocapsa minor* HA4230-MV1", "*Myxacorys californica* WJT36-NPBG1",
+        "*Myxacorys chilensis* ATA2-1-KO14", "*Plectolyngbya* sp. WJT66-NPBG17",
+        "*Scytolyngbya* sp. HA4215-MV1", "*Stenomitos rutilans* HA7619-LM2",
+        "*Drouetiella hepatica* UHER 2000/2452", "*Kaiparowitsia implicata* GSE-PSE-MK54-09C",
+        "*Pegethrix bostrychoides* GSE-TBD4-15B", "*Tildeniella nuda* ZEHNDER 1965/U140",
+        "*Tildeniella torsiva* UHER 1998/13D", "*Timaviella obliquedivisa* GSE-PSE-MK23-08B",
+        "*Nodosilinea* sp. WJT8-NPBG4", "*Aphanocapsa lilacina* HA4352-LM1",
+        "*Aphanocapsa* sp. GSE-SYN-MK-11-07L", "*Trichocoleus desertorum* ATA4-8-CV12"))
+
+
 
 
 viralseq.plot <- ggplot(viralseq, aes(x = n, y = TaxID, fill = order)) +
@@ -1101,7 +1145,7 @@ viralseq.plot <- ggplot(viralseq, aes(x = n, y = TaxID, fill = order)) +
         width = 0.6) + xlab("Viral sequences") + ggtitle("A") +
     ylab("") + scale_fill_viridis_d(option = "A", begin = 0.25,
     direction = -1) + guides(fill = guide_legend(title = "Order")) +
-    scale_y_discrete(limits = rev)
+    scale_y_discrete(limits = rev) + theme(axis.text.y = element_markdown())
 
 
 # combined plot
@@ -1305,7 +1349,7 @@ unique(checkv_cdhit_tax.ord$Order)
 unique(checkv_cdhit_tax.ord$Family)
 ```
 
-    ## [1] "Mixed"             "Unclassified"      "Siphoviridae"     
+    ## [1] "Unclassified"      "Siphoviridae"      "Mixed"            
     ## [4] "Myoviridae"        "Inoviridae"        "Microviridae"     
     ## [7] "Podoviridae"       "Autographiviridae"
 
@@ -1313,7 +1357,7 @@ unique(checkv_cdhit_tax.ord$Family)
 unique(checkv_cdhit_tax.ord$Genus)
 ```
 
-    ## [1] "Mixed"           "Unclassified"    "Bcepmuvirus"     "Sinsheimervirus"
+    ## [1] "Unclassified"    "Mixed"           "Bcepmuvirus"     "Sinsheimervirus"
 
 ``` r
 summary(as.factor(checkv_cdhit_tax$Family))
@@ -1543,16 +1587,18 @@ cyanos_host$VCStatus
 ``` r
 cyanos_host_meta <- left_join(cyanos_host, meta, by = c(Sample = "sample"))
 
-cyanos_host_meta$Habitat_Group
+cyanos_host_meta$Koeppen.Broad
 ```
 
-    ## [1] "Desert"  "Desert"  "Tropics"
+    ## Warning: Unknown or uninitialised column: `Koeppen.Broad`.
+
+    ## NULL
 
 ``` r
 cyanos_host$votu.id
 ```
 
-    ## [1] "vOTU669" "vOTU602" "vOTU638"
+    ## [1] "vOTU667" "vOTU595" "vOTU636"
 
 ``` r
 cyano_host_RA <- hostpred_avgs_grouped.meta[hostpred_avgs_grouped.meta$OTU %in%
@@ -1724,10 +1770,10 @@ checkv_cdhit_tax.meta.samplesum.combo <- checkv_cdhit_tax.meta.samplesum %>%
         SRA.run.no.))
 ```
 
-    ## Joining, by = "TaxID"
-    ## Joining, by = "TaxID"
-    ## Joining, by = "TaxID"
-    ## Joining, by = "TaxID"
+    ## Joining with `by = join_by(TaxID)`
+    ## Joining with `by = join_by(TaxID)`
+    ## Joining with `by = join_by(TaxID)`
+    ## Joining with `by = join_by(TaxID)`
 
 ``` r
 # kable(checkv_cdhit_tax.meta.samplesum.combo, digits = 2)
