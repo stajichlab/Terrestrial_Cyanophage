@@ -806,20 +806,10 @@ checkv_cdhit_tax.meta <- left_join(checkv_cdhit_tax, meta, by = c(Sample = "samp
 
 vir.hab.nodes.hq <- clstrd.nodes %>%
     left_join(select(clstr.master, VC, ClstrComp), by = "VC") %>%
-    left_join(select(checkv_cdhit_tax.meta, VCStatus, checkv_quality,
-        Koeppen.Broad), by = c(VC = "VCStatus")) %>%
+    left_join(select(checkv_cdhit_tax.meta, Genome, checkv_quality, Koeppen.Broad), by = c("Genome")) %>%
     filter(!checkv_quality %in% c("Not-determined")) %>%
-    mutate(Koeppen.Broad = ifelse(is.na(Koeppen.Broad), "Unknown",
+    mutate(Habitat_Group = ifelse(is.na(Koeppen.Broad), "Unknown",
         as.character(Koeppen.Broad)))  #%>%
-```
-
-    ## Warning in left_join(., select(checkv_cdhit_tax.meta, VCStatus, checkv_quality, : Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 83 of `x` matches multiple rows in `y`.
-    ## ℹ Row 438 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
-
-``` r
 # filter(Source == 'refseq' | ClstrComp == 'both')
 
 vir.hab.nodes.hq <- vir.hab.nodes.hq[-c(66)]
@@ -830,10 +820,10 @@ ntwk.hab.vir.hq <- vir.hab.nodes.hq %>%
     ggplot(aes(x, y)) + geom_line(data = filter(edges, Genome %in%
     vir.hab.nodes.hq$Genome), aes(group = Pair), alpha = 0.1,
     color = "gray25", size = 0.5) + geom_point(alpha = 0.8, size = 2,
-    shape = 16, aes(color = Koeppen.Broad)) + scale_color_manual(name = "Biome",
-    values = c("#E69F00", "#56B4E9", "#CC79A7", "#009E73", "gray75")) +
-    theme_minimal() + theme(axis.text = element_blank(), axis.title = element_blank(),
-    panel.grid = element_blank(), legend.position = "right") +
+    shape = 16, aes(color = Koeppen.Broad)) + scale_color_manual(name = "Habitat",
+    values = c("#E69F00", "#56B4E9", "#009E73", "#CC79A7", "gray75")) + theme_minimal() +
+    theme(axis.text = element_blank(), axis.title = element_blank(),
+        panel.grid = element_blank(), legend.position = "right") +
     guides(color = guide_legend(override.aes = list(shape = 16,
         size = 4)))
 
@@ -925,13 +915,13 @@ meta.sub.seq <- checkv_cdhit_tax.meta %>%
 a_hab_seq <- ggplot(meta.sub.seq, aes(y = Koeppen.Broad, fill = Koeppen.Broad,
     color = Koeppen.Broad, x = n)) + geom_bar(stat = "identity",
     position = "stack", width = 0.6, orientation = "y") + scale_fill_manual(name = "Habitat",
-    values = c("#E69F00", "#56B4E9", "#CC79A7", "#009E73", "gray75")) +
-    scale_color_manual(name = "Habitat", values = c("#E69F00",
-        "#56B4E9", "#CC79A7", "#009E73", "gray75")) + ylab("") +
-    facet_wrap(~Order, scales = "free") + xlab("Number of viral sequences") +
-    geom_text(aes(x = lab_ypos, label = n, group = Koeppen.Broad),
-        fontface = "bold", size = 4, color = "black") + scale_y_discrete(limits = rev) +
-    theme(legend.position = "none") + xlim(0, 190)
+    values = c("#E69F00", "#56B4E9", "#009E73", "#CC79A7", "gray75")) + scale_color_manual(name = "Habitat",
+    values = c("#E69F00", "#56B4E9", "#009E73", "#CC79A7", "gray75")) + ylab("") + facet_wrap(~Order,
+    scales = "free") + xlab("Number of viral sequences") + geom_text(aes(x = lab_ypos,
+    label = n, group = Koeppen.Broad), fontface = "bold", size = 4,
+    color = "black") + scale_y_discrete(limits = rev) + theme(legend.position = "none") +
+    xlim(0, 190)
+
 
 # taxonomy
 
@@ -1072,11 +1062,10 @@ a <- ggplot(vOTU_avgs_grouped.meta, aes(x = mean, fill = Family2,
 # host x relative abundance
 b <- ggplot(hostpred_avgs_grouped.meta, aes(x = mean, fill = Phylum,
     y = TaxID)) + geom_bar(orientation = "y", stat = "identity",
-    position = "stack", width = 0.6) + scale_fill_manual(values = c("#CC79A7",
-    "#F0E442", "#0072B2", "#D55E00", "#009E73", "grey75")) +
-    theme(axis.text.y = element_blank(), axis.ticks.y = element_blank()) +
-    ylab("") + ggtitle("C") + xlab("Relative Abundance (%)") +
-    scale_y_discrete(limits = rev)
+    position = "stack", width = 0.6) +   scale_fill_manual(values=c("#CC79A7","#F0E442",  
+    "#0072B2", "#D55E00", "#009E73", "grey75"))+ + theme(axis.text.y = element_blank(),
+    axis.ticks.y = element_blank()) + ylab("") + ggtitle("C") +
+    xlab("Relative Abundance (%)") + scale_y_discrete(limits = rev)
 
 
 # viral seqs per sample
