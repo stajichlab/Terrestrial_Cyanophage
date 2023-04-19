@@ -895,16 +895,16 @@ meta.sub.seq <- checkv_cdhit_tax.meta %>%
     filter(checkv_quality %in% c("High-quality", "Complete",
         "Medium-quality", "Low-quality")) %>%
     filter(ClusterStatus == "Clustered") %>%
-    group_by(Koeppen.Broad, Order) %>%
+    group_by(Habitat_Group, Order) %>%
     mutate(Order = ifelse(Order == "Unassigned", "Unique VC",
         "VC with reference genomes")) %>%
     tally() %>%
-    arrange(desc(Koeppen.Broad)) %>%
+    arrange(desc(Habitat_Group)) %>%
     mutate(lab_ypos = n + 0.1 * n + 20) %>%
     mutate(norm = n/sum(n) * 100)
 
-a_hab_seq <- ggplot(meta.sub.seq, aes(y = Koeppen.Broad, fill = Koeppen.Broad,
-    color = Koeppen.Broad, x = n)) + geom_bar(stat = "identity",
+a_hab_seq <- ggplot(meta.sub.seq, aes(y = Habitat_Group, fill = Habitat_Group,
+    color = Habitat_Group, x = n)) + geom_bar(stat = "identity",
     position = "stack", width = 0.6, orientation = "y") + scale_fill_manual(name = "Habitat",
     values = c("#E69F00", "#56B4E9", "#009E73", "#CC79A7", "gray75")) + scale_color_manual(name = "Habitat",
     values = c("#E69F00", "#56B4E9", "#009E73", "#CC79A7", "gray75")) + ylab("") + facet_wrap(~Order,
